@@ -1,2 +1,0 @@
-# check-pallas
-Pallas checker
