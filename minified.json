@@ -1,0 +1,185 @@
+{
+    "iOS 14": [
+        {
+            "name": "iOS 14.7.1 (18G82)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.7 (18G69)",
+            "date": "2021-10-24T00:00:00+00:00",
+            "delay": 13,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.6 (18F72)",
+            "date": "2021-10-17T00:00:00+00:00",
+            "delay": 69,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.5.1 (18E212)",
+            "date": "2021-08-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iOS 12": [
+        {
+            "name": "iOS 12.5.4 (16H50)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.3 (16H41)",
+            "date": "2021-09-12T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iPadOS 14": [
+        {
+            "name": "iPadOS 14.7.1 (18G82)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 14.7 (18G69)",
+            "date": "2021-10-24T00:00:00+00:00",
+            "delay": 11,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 14.6 (18F72)",
+            "date": "2021-10-19T00:00:00+00:00",
+            "delay": 69,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 14.5.1 (18E212)",
+            "date": "2021-08-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iPadOS 12": [
+        {
+            "name": "iOS 12.5.4 (16H50)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.3 (16H41)",
+            "date": "2021-09-12T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "macOS 11": [
+        {
+            "name": "macOS Big Sur 11.5.1 (20G80)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.5 (20G71)",
+            "date": "2021-10-24T00:00:00+00:00",
+            "delay": 11,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.4 (20F71)",
+            "date": "2021-10-19T00:00:00+00:00",
+            "delay": 69,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.3.1 (20E241)",
+            "date": "2021-08-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "tvOS 14": [
+        {
+            "name": "tvOS 14.7 (18M60)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 14.6 (18L569)",
+            "date": "2021-10-17T00:00:00+00:00",
+            "delay": 69,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 14.5 (18L204)",
+            "date": "2021-08-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ]
+}
