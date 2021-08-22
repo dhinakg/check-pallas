@@ -26,15 +26,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 14.5.1 (18E212)",
-            "date": "2021-08-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS 12": [
@@ -84,15 +75,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 14.5.1 (18E212)",
-            "date": "2021-08-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS 12": [
@@ -151,15 +133,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.3.1 (20E241)",
-            "date": "2021-08-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "tvOS 14": [
@@ -180,15 +153,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 14.5 (18L204)",
-            "date": "2021-08-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ]
 }
