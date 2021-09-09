@@ -12,7 +12,7 @@
         {
             "name": "iOS 14.7 (18G69)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 51,
+            "delay": 52,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -61,7 +61,7 @@
         {
             "name": "iPadOS 14.7 (18G69)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 49,
+            "delay": 50,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -110,7 +110,7 @@
         {
             "name": "macOS Big Sur 11.5.1 (20G80)",
             "date": "2021-11-09T00:00:00+00:00",
-            "delay": 44,
+            "delay": 45,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -119,7 +119,7 @@
         {
             "name": "macOS Big Sur 11.5 (20G71)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 49,
+            "delay": 50,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
