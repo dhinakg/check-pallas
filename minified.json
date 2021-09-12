@@ -37,15 +37,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 12.5.3 (16H41)",
-            "date": "2021-09-12T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS 14": [
@@ -86,15 +77,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 12.5.3 (16H41)",
-            "date": "2021-09-12T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS 11": [
