@@ -1,10 +1,19 @@
 {
     "iOS 14": [
         {
-            "name": "iOS 14.7.1 (18G82)",
+            "name": "iOS 14.8 (18H17)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.7.1 (18G82)",
+            "date": "2021-12-12T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -41,10 +50,19 @@
     ],
     "iPadOS 14": [
         {
-            "name": "iPadOS 14.7.1 (18G82)",
+            "name": "iPadOS 14.8 (18H17)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 14.7.1 (18G82)",
+            "date": "2021-12-12T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -81,10 +99,19 @@
     ],
     "macOS 11": [
         {
-            "name": "macOS Big Sur 11.5.2 (20G95)",
+            "name": "macOS Big Sur 11.6 (20G165)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.5.2 (20G95)",
+            "date": "2021-12-12T00:00:00+00:00",
+            "delay": 33,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
