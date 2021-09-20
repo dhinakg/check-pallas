@@ -1,4 +1,15 @@
 {
+    "iOS 15": [
+        {
+            "name": "iOS 15 (19A346)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
     "iOS 14": [
         {
             "name": "iOS 14.8 (18H17)",
@@ -40,6 +51,17 @@
     "iOS 12": [
         {
             "name": "iOS 12.5.4 (16H50)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iPadOS 15": [
+        {
+            "name": "iPadOS 15 (19A346)",
             "date": null,
             "delay": 0,
             "latest": true,
@@ -139,6 +161,17 @@
             "date": "2021-10-19T00:00:00+00:00",
             "delay": 90,
             "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "tvOS 15": [
+        {
+            "name": "tvOS 15.0 (19J346)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false

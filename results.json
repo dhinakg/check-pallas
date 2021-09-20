@@ -1,5 +1,10 @@
 {
     "iOS": {
+        "15": {
+            "15.0": {
+                "Latest available": null
+            }
+        },
         "14": {
             "14.8": {
                 "Latest available": null
@@ -21,6 +26,11 @@
         }
     },
     "iPadOS": {
+        "15": {
+            "15.0": {
+                "Latest available": null
+            }
+        },
         "14": {
             "14.8": {
                 "Latest available": null
@@ -61,6 +71,11 @@
         }
     },
     "tvOS": {
+        "15": {
+            "15.0": {
+                "Latest available": null
+            }
+        },
         "14": {
             "14.7": {
                 "Latest available": null
