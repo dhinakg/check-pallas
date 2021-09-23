@@ -1,4 +1,24 @@
 {
+    "iOS 12": [
+        {
+            "name": "iOS 12.5.5 (16H62)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.4 (16H50)",
+            "date": "2021-12-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
     "iOS 15": [
         {
             "name": "iOS 15 (19A346)",
@@ -48,12 +68,21 @@
             "mdm_only": false
         }
     ],
-    "iOS 12": [
+    "iPadOS 12": [
         {
-            "name": "iOS 12.5.4 (16H50)",
+            "name": "iOS 12.5.5 (16H62)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.4 (16H50)",
+            "date": "2021-12-22T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -103,17 +132,6 @@
             "date": "2021-10-19T00:00:00+00:00",
             "delay": 90,
             "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "iPadOS 12": [
-        {
-            "name": "iOS 12.5.4 (16H50)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
