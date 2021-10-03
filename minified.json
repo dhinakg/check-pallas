@@ -12,7 +12,7 @@
         {
             "name": "iOS 15 (19A346)",
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 12,
+            "delay": 13,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -52,7 +52,7 @@
         {
             "name": "iOS 14.7.1 (18G82)",
             "date": "2021-12-12T00:00:00+00:00",
-            "delay": 68,
+            "delay": 69,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -61,7 +61,7 @@
         {
             "name": "iOS 14.7 (18G69)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -90,7 +90,7 @@
         {
             "name": "iPadOS 15 (19A346)",
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 12,
+            "delay": 13,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -130,7 +130,7 @@
         {
             "name": "iPadOS 14.7.1 (18G82)",
             "date": "2021-12-12T00:00:00+00:00",
-            "delay": 68,
+            "delay": 69,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -139,7 +139,7 @@
         {
             "name": "iPadOS 14.7 (18G69)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 73,
+            "delay": 74,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -168,7 +168,7 @@
         {
             "name": "macOS Big Sur 11.5.2 (20G95)",
             "date": "2021-12-12T00:00:00+00:00",
-            "delay": 52,
+            "delay": 53,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -177,7 +177,7 @@
         {
             "name": "macOS Big Sur 11.5.1 (20G80)",
             "date": "2021-11-09T00:00:00+00:00",
-            "delay": 68,
+            "delay": 69,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -186,7 +186,7 @@
         {
             "name": "macOS Big Sur 11.5 (20G71)",
             "date": "2021-10-24T00:00:00+00:00",
-            "delay": 73,
+            "delay": 74,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
