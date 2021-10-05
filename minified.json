@@ -42,9 +42,9 @@
     "iOS 14": [
         {
             "name": "iOS 14.8 (18H17)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2021-10-05T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -120,9 +120,9 @@
     "iPadOS 14": [
         {
             "name": "iPadOS 14.8 (18H17)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2021-10-05T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -216,9 +216,9 @@
     "tvOS 14": [
         {
             "name": "tvOS 14.7 (18M60)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2021-10-05T00:00:00+00:00",
+            "delay": 78,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
