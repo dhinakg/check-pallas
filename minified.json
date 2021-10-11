@@ -1,10 +1,19 @@
 {
     "iOS 15": [
         {
-            "name": "iOS 15.0.1 (19A348)",
+            "name": "iOS 15.0.2 (19A404)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.0.1 (19A348)",
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 10,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -79,10 +88,19 @@
     ],
     "iPadOS 15": [
         {
-            "name": "iPadOS 15.0.1 (19A348)",
+            "name": "iPadOS 15.0.2 (19A404)",
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.0.1 (19A348)",
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 10,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
