@@ -2,8 +2,8 @@
     "iOS 14": [
         {
             "name": "iOS 14.8 (18H17)",
-            "date": "2021-10-24T00:00:00+00:00",
-            "delay": 41,
+            "date": "2021-10-25T00:00:00+00:00",
+            "delay": 42,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -32,7 +32,7 @@
         {
             "name": "iOS 15.0.1 (19A348)",
             "date": "2022-01-09T00:00:00+00:00",
-            "delay": 23,
+            "delay": 24,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -41,7 +41,7 @@
         {
             "name": "iOS 15 (19A346)",
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 34,
+            "delay": 35,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -71,8 +71,8 @@
     "iPadOS 14": [
         {
             "name": "iPadOS 14.8 (18H17)",
-            "date": "2021-10-24T00:00:00+00:00",
-            "delay": 41,
+            "date": "2021-10-25T00:00:00+00:00",
+            "delay": 42,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -101,7 +101,7 @@
         {
             "name": "iPadOS 15.0.1 (19A348)",
             "date": "2022-01-09T00:00:00+00:00",
-            "delay": 23,
+            "delay": 24,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -110,7 +110,7 @@
         {
             "name": "iPadOS 15 (19A346)",
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 34,
+            "delay": 35,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -150,7 +150,7 @@
         {
             "name": "macOS Big Sur 11.5.2 (20G95)",
             "date": "2021-12-12T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -180,7 +180,7 @@
     "tvOS 14": [
         {
             "name": "tvOS 14.7 (18M60)",
-            "date": "2021-10-24T00:00:00+00:00",
+            "date": "2021-10-25T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
