@@ -1,9 +1,45 @@
 {
-    "iOS 14": [
+    "iOS": [
+        {
+            "name": "iOS 15.1 (19B74)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.0.2 (19A404)",
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.0.1 (19A348)",
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 32,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15 (19A346)",
+            "date": "2021-12-30T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
         {
             "name": "iOS 14.8 (18H17)",
-            "date": "2021-10-25T00:00:00+00:00",
-            "delay": 42,
+            "date": "2021-12-19T00:00:00+00:00",
+            "delay": 50,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -19,36 +55,7 @@
             "mdm_only": false
         }
     ],
-    "iOS 15": [
-        {
-            "name": "iOS 15.0.2 (19A404)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.0.1 (19A348)",
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": 24,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15 (19A346)",
-            "date": "2021-12-30T00:00:00+00:00",
-            "delay": 35,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "iOS 12": [
+    "iOS Legacy": [
         {
             "name": "iOS 12.5.5 (16H62)",
             "date": null,
@@ -68,11 +75,47 @@
             "mdm_only": false
         }
     ],
-    "iPadOS 14": [
+    "iPadOS": [
+        {
+            "name": "iPadOS 15.1 (19B74)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.0.2 (19A404)",
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.0.1 (19A348)",
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 32,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15 (19A346)",
+            "date": "2021-12-30T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
         {
             "name": "iPadOS 14.8 (18H17)",
-            "date": "2021-10-25T00:00:00+00:00",
-            "delay": 42,
+            "date": "2021-12-19T00:00:00+00:00",
+            "delay": 50,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -88,36 +131,7 @@
             "mdm_only": false
         }
     ],
-    "iPadOS 15": [
-        {
-            "name": "iPadOS 15.0.2 (19A404)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 15.0.1 (19A348)",
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": 24,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 15 (19A346)",
-            "date": "2021-12-30T00:00:00+00:00",
-            "delay": 35,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "iPadOS 12": [
+    "iPadOS Legacy": [
         {
             "name": "iOS 12.5.5 (16H62)",
             "date": null,
@@ -137,9 +151,9 @@
             "mdm_only": false
         }
     ],
-    "macOS 11": [
+    "tvOS": [
         {
-            "name": "macOS Big Sur 11.6 (20G165)",
+            "name": "tvOS 15.1.1 (19J581)",
             "date": null,
             "delay": 0,
             "latest": true,
@@ -148,9 +162,65 @@
             "mdm_only": false
         },
         {
+            "name": "tvOS 15.1 (19J572)",
+            "date": "2022-01-30T00:00:00+00:00",
+            "delay": 8,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 15.0 (19J346)",
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 14.7 (18M60)",
+            "date": "2021-12-19T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "macOS": [
+        {
+            "name": "macOS Monterey 12.0.1 (21A559)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.6.1 (20G224)",
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.6 (20G165)",
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 50,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "macOS Big Sur 11.5.2 (20G95)",
             "date": "2021-12-12T00:00:00+00:00",
-            "delay": 75,
+            "delay": 83,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -166,26 +236,5 @@
             "mdm_only": false
         }
     ],
-    "tvOS 15": [
-        {
-            "name": "tvOS 15.0 (19J346)",
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "tvOS 14": [
-        {
-            "name": "tvOS 14.7 (18M60)",
-            "date": "2021-10-25T00:00:00+00:00",
-            "delay": 90,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ]
+    "_date": "2021-11-02T19:22:40.826682+00:00"
 }
