@@ -225,15 +225,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.5.1 (20G80)",
-            "date": "2021-11-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS 14 Alternate Updates": [
@@ -256,5 +247,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-11-09T16:44:51.191874+00:00"
+    "_date": "2021-11-09T17:12:09.281120+00:00"
 }
