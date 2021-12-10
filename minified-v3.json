@@ -23,7 +23,7 @@
         {
             "name": "iOS 14.8 (18H17)",
             "alternate": false,
-            "date": "2022-01-24T00:00:00+00:00",
+            "date": "2022-01-25T00:00:00+00:00",
             "delay": 87,
             "latest": false,
             "imminent": false,
@@ -33,7 +33,7 @@
         {
             "name": "iOS 15.0.2 (19A404)",
             "alternate": false,
-            "date": "2021-12-12T00:00:00+00:00",
+            "date": "2021-12-13T00:00:00+00:00",
             "delay": 59,
             "latest": false,
             "imminent": false,
@@ -43,7 +43,7 @@
         {
             "name": "iOS 15.0.1 (19A348)",
             "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
+            "date": "2022-01-10T00:00:00+00:00",
             "delay": 69,
             "latest": false,
             "imminent": false,
@@ -53,7 +53,7 @@
         {
             "name": "iOS 15 (19A346)",
             "alternate": false,
-            "date": "2021-12-30T00:00:00+00:00",
+            "date": "2021-12-31T00:00:00+00:00",
             "delay": 80,
             "latest": false,
             "imminent": false,
@@ -63,7 +63,7 @@
         {
             "name": "iOS 14.7.1 (18G82)",
             "alternate": false,
-            "date": "2021-12-19T00:00:00+00:00",
+            "date": "2021-12-20T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -85,7 +85,7 @@
         {
             "name": "iOS 12.5.4 (16H50)",
             "alternate": false,
-            "date": "2021-12-22T00:00:00+00:00",
+            "date": "2021-12-23T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -117,7 +117,7 @@
         {
             "name": "iPadOS 14.8 (18H17)",
             "alternate": false,
-            "date": "2022-01-24T00:00:00+00:00",
+            "date": "2022-01-25T00:00:00+00:00",
             "delay": 87,
             "latest": false,
             "imminent": false,
@@ -127,7 +127,7 @@
         {
             "name": "iPadOS 15.0.2 (19A404)",
             "alternate": false,
-            "date": "2021-12-12T00:00:00+00:00",
+            "date": "2021-12-13T00:00:00+00:00",
             "delay": 59,
             "latest": false,
             "imminent": false,
@@ -137,7 +137,7 @@
         {
             "name": "iPadOS 15.0.1 (19A348)",
             "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
+            "date": "2022-01-10T00:00:00+00:00",
             "delay": 69,
             "latest": false,
             "imminent": false,
@@ -147,7 +147,7 @@
         {
             "name": "iPadOS 15 (19A346)",
             "alternate": false,
-            "date": "2021-12-30T00:00:00+00:00",
+            "date": "2021-12-31T00:00:00+00:00",
             "delay": 80,
             "latest": false,
             "imminent": false,
@@ -157,7 +157,7 @@
         {
             "name": "iPadOS 14.7.1 (18G82)",
             "alternate": false,
-            "date": "2021-12-19T00:00:00+00:00",
+            "date": "2021-12-20T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -179,7 +179,7 @@
         {
             "name": "iOS 12.5.4 (16H50)",
             "alternate": false,
-            "date": "2021-12-22T00:00:00+00:00",
+            "date": "2021-12-23T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -201,7 +201,7 @@
         {
             "name": "tvOS 15.1 (19J572)",
             "alternate": false,
-            "date": "2022-01-30T00:00:00+00:00",
+            "date": "2022-01-31T00:00:00+00:00",
             "delay": 45,
             "latest": false,
             "imminent": false,
@@ -211,8 +211,8 @@
         {
             "name": "tvOS 15.0 (19J346)",
             "alternate": false,
-            "date": "2022-01-23T00:00:00+00:00",
-            "delay": 80,
+            "date": "2022-01-24T00:00:00+00:00",
+            "delay": 81,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -254,7 +254,7 @@
             "name": "macOS Big Sur 11.6 (20G165)",
             "alternate": false,
             "date": "2022-01-23T00:00:00+00:00",
-            "delay": 87,
+            "delay": 88,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -271,5 +271,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-09T23:42:31.269154+00:00"
+    "_date": "2021-12-10T00:00:33.135265+00:00"
 }
