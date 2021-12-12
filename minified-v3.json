@@ -59,16 +59,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 14.7.1 (18G82)",
-            "alternate": false,
-            "date": "2021-12-19T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy": [
@@ -153,16 +143,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 14.7.1 (18G82)",
-            "alternate": false,
-            "date": "2021-12-19T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy": [
@@ -259,17 +239,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.5.2 (20G95)",
-            "alternate": false,
-            "date": "2021-12-12T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2021-12-12T17:05:51.148951+00:00"
+    "_date": "2021-12-12T17:34:47.614669+00:00"
 }
