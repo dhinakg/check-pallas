@@ -1,11 +1,21 @@
 {
     "iOS": [
         {
-            "name": "iOS 15.1 (19B74)",
+            "name": "iOS 15.2 (19C56)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.1 (19B74)",
+            "alternate": false,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -13,9 +23,9 @@
         {
             "name": "iOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 48,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -85,11 +95,21 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 15.1 (19B74)",
+            "name": "iPadOS 15.2 (19C56)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.1 (19B74)",
+            "alternate": false,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -97,9 +117,9 @@
         {
             "name": "iPadOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 48,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -169,11 +189,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 15.1.1 (19J581)",
+            "name": "tvOS 15.2 (19K53)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 15.1.1 (19J581)",
+            "alternate": false,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -211,11 +241,31 @@
     ],
     "macOS": [
         {
-            "name": "macOS Monterey 12.0.1 (21A559)",
+            "name": "macOS Monterey 12.1 (21C52)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.6.2 (20G314)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.0.1 (21A559)",
+            "alternate": false,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -223,9 +273,9 @@
         {
             "name": "macOS Big Sur 11.6.1 (20G224)",
             "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -241,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-13T17:52:58.320906+00:00"
+    "_date": "2021-12-13T18:27:00.668731+00:00"
 }
