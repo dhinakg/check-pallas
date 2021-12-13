@@ -51,20 +51,10 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 15.0.1 (19A348)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": 73,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
             "name": "iOS 15 (19A346)",
             "alternate": false,
-            "date": "2021-12-30T00:00:00+00:00",
-            "delay": 84,
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 81,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -145,20 +135,10 @@
             "mdm_only": false
         },
         {
-            "name": "iPadOS 15.0.1 (19A348)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": 73,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
             "name": "iPadOS 15 (19A346)",
             "alternate": false,
-            "date": "2021-12-30T00:00:00+00:00",
-            "delay": 84,
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 81,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -219,19 +199,9 @@
             "mdm_only": false
         },
         {
-            "name": "tvOS 15.0 (19J346)",
-            "alternate": false,
-            "date": "2022-01-23T00:00:00+00:00",
-            "delay": 84,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
             "name": "tvOS 14.7 (18M60)",
             "alternate": false,
-            "date": "2021-12-19T00:00:00+00:00",
+            "date": "2022-01-23T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -291,5 +261,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-13T22:41:20.388773+00:00"
+    "_date": "2021-12-13T22:53:57.515788+00:00"
 }
