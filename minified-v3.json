@@ -64,7 +64,7 @@
             "name": "iOS 15 (19A346)",
             "alternate": false,
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 81,
+            "delay": 84,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -158,7 +158,7 @@
             "name": "iPadOS 15 (19A346)",
             "alternate": false,
             "date": "2021-12-30T00:00:00+00:00",
-            "delay": 81,
+            "delay": 84,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -291,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-13T22:22:13.206748+00:00"
+    "_date": "2021-12-13T22:41:20.388773+00:00"
 }
