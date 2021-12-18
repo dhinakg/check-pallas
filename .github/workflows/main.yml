@@ -1,0 +1,28 @@
+name: Build HTML Docs
+on:
+  push:
+  schedule:
+    - cron: '*/30 * * * *'
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Build Files
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Deps
+        run: pip3 install hammock python-dateutil packaging urllib3
+      - name: Refresh
+        run: |
+          python3 -u check_pallas_v3.py
+          python3 -u check_pmv.py
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: deploy
