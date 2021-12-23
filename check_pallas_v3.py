@@ -446,10 +446,11 @@ for os in sorted_assets:
                 version["theoretical"] = 0
                 continue
             current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-            version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
+            # version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
+            version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i]["days"][0] + 1))
             version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
-            if i == 0:
-                version["theoretical_date"] = None
+            # if i == 0:
+            #     version["theoretical_date"] = None
 
 json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
 
