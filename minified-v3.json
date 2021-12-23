@@ -23,7 +23,7 @@
         {
             "name": "iOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": null,
+            "date": "2022-03-13T00:00:00+00:00",
             "delay": 58,
             "latest": false,
             "imminent": false,
@@ -95,7 +95,7 @@
         {
             "name": "iOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": null,
+            "date": "2022-03-13T00:00:00+00:00",
             "delay": 58,
             "latest": false,
             "imminent": false,
@@ -179,7 +179,7 @@
         {
             "name": "iPadOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": null,
+            "date": "2022-03-13T00:00:00+00:00",
             "delay": 58,
             "latest": false,
             "imminent": false,
@@ -315,7 +315,7 @@
         {
             "name": "macOS Big Sur 11.6.1 (20G224)",
             "alternate": false,
-            "date": "2022-01-23T00:00:00+00:00",
+            "date": "2022-03-13T00:00:00+00:00",
             "delay": 59,
             "latest": false,
             "imminent": false,
@@ -333,5 +333,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-23T14:15:17.256238+00:00"
+    "_date": "2021-12-23T14:30:39.043595+00:00"
 }
