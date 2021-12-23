@@ -1,6 +1,7 @@
 import base64
 import datetime
 import io
+import itertools
 import json
 from pathlib import Path
 import plistlib
@@ -69,9 +70,7 @@ asset_audiences = {
     },
 }
 
-alternate_names = {
-    "c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Updates"
-}
+alternate_names = {"c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Updates"}
 
 
 oses = {
@@ -231,11 +230,11 @@ for os in pmv_versions:
 
 json.dump(pmv_versions, Path("pmv_versions.json").open("w"), sort_keys=True, indent=4)
 
-sorted_assets = {i: [] for i in oses}
+sorted_assets = {i: {"default": [], "alternate": []} for i in oses}
 
 
 def check_in_assets(os, build, date, alternate=False):
-    for i in sorted_assets[os]:
+    for i in itertools.chain.from_iterable(sorted_assets[os].values()):
         if i["build"] == build and i["alternate"] == alternate:  # and i["pmv_posting"] == date:
             return i
     return None
@@ -278,8 +277,6 @@ for os, this_os in oses.items():
                 request_dict["DeviceName"] = this_os["default_name"]
             request_dict["DelayRequested"] = False
             request_dict["RequestedProductVersion"] = available_version
-            request_dict["ProductVersion"] = "14.6"
-            request_dict["BuildVersion"] = "18F72"
 
             try:
                 response = session.post(ASSETS_URL, json=request_dict)
@@ -308,7 +305,7 @@ for os, this_os in oses.items():
                                 "mdm_available": True,
                                 "pmv_posting": posting,
                             }
-                            sorted_assets[os].append(unit)
+                            sorted_assets[os]["default"].append(unit)
 
                         if not unit["title"]:
                             unit["title"] = get_title(this_os["default_name"], request_dict)
@@ -368,7 +365,7 @@ for os, this_os in oses.items():
                             "mdm_available": False,
                             "pmv_posting": posting,
                         }
-                        sorted_assets[os].append(unit)
+                        sorted_assets[os]["default"].append(unit)
 
                     if period not in unit["days"]:
                         unit["days"].append(period)
@@ -406,7 +403,7 @@ for os, this_os in oses.items():
                                         "mdm_available": False,
                                         "pmv_posting": posting,
                                     }
-                                    sorted_assets[os].append(unit)
+                                    sorted_assets[os]["alternate"].append(unit)
 
                                 if period not in unit["days"]:
                                     unit["days"].append(period)
@@ -434,13 +431,11 @@ class reversor:
 
 
 for os in sorted_assets:
-    sorted_assets[os].sort(key=lambda x: (x["days"][0] if x["days"] else 91, reversor(packaging.version.parse(x["name"]))))
-json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+    sorted_assets[os]["default"].sort(key=lambda x: (x["days"][0] if x["days"] else 91, reversor(packaging.version.parse(x["name"]))))
+    sorted_assets[os]["alternate"].sort(key=lambda x: (x["days"][0] if x["days"] else 91, reversor(packaging.version.parse(x["name"]))))
 
-pprint(sorted_assets)
-
-
-for os, versions in sorted_assets.items():
+for os in sorted_assets:
+    for path, versions in sorted_assets[os].items():
     for i, version in enumerate(versions):
         if 0 in version["days"]:
             version["theoretical_date"] = None
@@ -449,14 +444,25 @@ for os, versions in sorted_assets.items():
         current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
         version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
         version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
+            if i == 0:
+                version["theoretical_date"] = None
 
-
-print(sorted_assets)
 json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+
+resorted_assets = {i: [] for i in oses}
+
+for os in sorted_assets:
+    resorted_assets[os] = list(itertools.chain.from_iterable(sorted_assets[os].values()))
+
+json.dump(resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+
+for os in sorted_assets:
+    resorted_assets[os].sort(key=lambda x: (x["days"][0] if x["days"] else 91, reversor(packaging.version.parse(x["name"]))))
+json.dump(resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
 
 minified = {}
 
-for os, versions in sorted_assets.items():
+for os, versions in resorted_assets.items():
     for version in versions:
         current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
         minified.setdefault(os, []).append(
