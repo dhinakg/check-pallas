@@ -75,7 +75,18 @@ alternate_names = {
 
 
 oses = {
-    "iOS": {
+    "iOS (iPhone 12 series/13 series only)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            "iPhone 12": {
+                "ProductType": "iPhone13,2",
+                "HWModelStr": "D53gAP",
+            },
+        },
+    },
+    "iOS (all other non-legacy devices)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -267,6 +278,8 @@ for os, this_os in oses.items():
                 request_dict["DeviceName"] = this_os["default_name"]
             request_dict["DelayRequested"] = False
             request_dict["RequestedProductVersion"] = available_version
+            request_dict["ProductVersion"] = "14.6"
+            request_dict["BuildVersion"] = "18F72"
 
             try:
                 response = session.post(ASSETS_URL, json=request_dict)
@@ -362,6 +375,7 @@ for os, this_os in oses.items():
 
                     if not unit["title"]:
                         unit["title"] = get_title(this_os["default_name"], request_dict)
+                    print(f"Found {version} for period {period} with device {device}")
 
                     if asset.get("EnableAlternateAssetAudience"):
                         alternate_audience = asset["AlternateAssetAudienceUUID"]
@@ -403,7 +417,6 @@ for os, this_os in oses.items():
                                 print(f"Found alternate {version} for period {period} with device {device}")
                         else:
                             print(f"No alternate assets found for {period} with {device}")
-                    print(f"Found {version} for period {period} with device {device}")
             else:
                 print(f"No assets found for {device}")
         json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
