@@ -1,5 +1,77 @@
 {
-    "iOS": [
+    "iOS (iPhone 12 series/13 series only)": [
+        {
+            "name": "iOS 15.2 (19C56)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.1.1 (19B81)",
+            "alternate": false,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 36,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.8.1 (18H107)",
+            "alternate": true,
+            "date": "2022-02-15T00:00:00+00:00",
+            "delay": 58,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.1 (19B74)",
+            "alternate": false,
+            "date": "2022-01-24T00:00:00+00:00",
+            "delay": 59,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.8 (18H17)",
+            "alternate": true,
+            "date": "2022-01-23T00:00:00+00:00",
+            "delay": 73,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.0.2 (19A404)",
+            "alternate": false,
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 73,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 14.8 (18H17)",
+            "alternate": false,
+            "date": "2022-01-09T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iOS (all other non-legacy devices)": [
         {
             "name": "iOS 15.2 (19C56)",
             "alternate": false,
@@ -69,7 +141,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -79,7 +151,7 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
@@ -153,7 +225,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -163,7 +235,7 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
@@ -261,5 +333,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2021-12-23T02:03:50.730452+00:00"
+    "_date": "2021-12-23T02:15:30.078240+00:00"
 }
