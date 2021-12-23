@@ -225,8 +225,12 @@ def major(version):
 
 
 pmv_versions = by_os.copy()
-for os in pmv_versions:
-    pmv_versions[os] = [asset["ProductVersion"] for asset in pmv_versions[os]]
+for os in by_os:
+    product_versions = []
+    for asset in by_os[os]:
+        if asset["ProductVersion"] not in product_versions:
+            product_versions.append(asset["ProductVersion"])
+    pmv_versions[os] = product_versions
 
 json.dump(pmv_versions, Path("pmv_versions.json").open("w"), sort_keys=True, indent=4)
 
@@ -436,14 +440,14 @@ for os in sorted_assets:
 
 for os in sorted_assets:
     for path, versions in sorted_assets[os].items():
-    for i, version in enumerate(versions):
-        if 0 in version["days"]:
-            version["theoretical_date"] = None
-            version["theoretical"] = 0
-            continue
-        current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-        version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
-        version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
+        for i, version in enumerate(versions):
+            if 0 in version["days"]:
+                version["theoretical_date"] = None
+                version["theoretical"] = 0
+                continue
+            current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+            version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
+            version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
             if i == 0:
                 version["theoretical_date"] = None
 
