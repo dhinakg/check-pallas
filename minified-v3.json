@@ -63,7 +63,7 @@
         {
             "name": "iOS 14.8 (18H17)",
             "alternate": false,
-            "date": null,
+            "date": "2022-01-09T00:00:00+00:00",
             "delay": -1,
             "latest": false,
             "imminent": true,
@@ -125,7 +125,7 @@
         {
             "name": "iOS 14.8 (18H17)",
             "alternate": false,
-            "date": null,
+            "date": "2022-01-09T00:00:00+00:00",
             "delay": -1,
             "latest": false,
             "imminent": true,
@@ -147,7 +147,7 @@
         {
             "name": "iOS 12.5.4 (16H50)",
             "alternate": false,
-            "date": null,
+            "date": "2022-01-09T00:00:00+00:00",
             "delay": -1,
             "latest": false,
             "imminent": true,
@@ -209,7 +209,7 @@
         {
             "name": "iPadOS 14.8 (18H17)",
             "alternate": false,
-            "date": null,
+            "date": "2022-01-09T00:00:00+00:00",
             "delay": -1,
             "latest": false,
             "imminent": true,
@@ -231,7 +231,7 @@
         {
             "name": "iOS 12.5.4 (16H50)",
             "alternate": false,
-            "date": null,
+            "date": "2022-01-09T00:00:00+00:00",
             "delay": -1,
             "latest": false,
             "imminent": true,
@@ -333,5 +333,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-01-09T00:13:01.369343+00:00"
+    "_date": "2022-01-09T00:19:35.659764+00:00"
 }
