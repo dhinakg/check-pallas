@@ -59,16 +59,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 14.8 (18H17)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (all other non-legacy devices)": [
@@ -121,16 +111,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 14.8 (18H17)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy": [
@@ -143,16 +123,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 12.5.4 (16H50)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS": [
@@ -205,16 +175,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 14.8 (18H17)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy": [
@@ -227,16 +187,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 12.5.4 (16H50)",
-            "alternate": false,
-            "date": "2022-01-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "tvOS": [
@@ -333,5 +283,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-01-09T17:07:10.622430+00:00"
+    "_date": "2022-01-09T17:37:29.729771+00:00"
 }
