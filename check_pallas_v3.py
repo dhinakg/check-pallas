@@ -447,8 +447,12 @@ for os in sorted_assets:
                 continue
             current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
             # version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
-            version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i]["days"][0] + 1))
-            version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
+            if len(version["days"]):
+                version["theoretical_date"] = current + datetime.timedelta(days=(90 - version["days"][0] + 1))
+                version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
+            else:
+                version["theoretical_date"] = None
+                version["theoretical"] = -1
             # if i == 0:
             #     version["theoretical_date"] = None
 
@@ -477,7 +481,7 @@ for os, versions in resorted_assets.items():
                 "date": version["theoretical_date"].isoformat() if version["theoretical_date"] else None,
                 "delay": version["theoretical"],  # 0 = latest, -1 - imminent removal, other - usable delay
                 "latest": version["theoretical"] == 0,
-                "imminent": (version["theoretical_date"] < current) if version["theoretical_date"] else False,
+                "imminent": version["theoretical"] == -1,
                 "mdm_available": version["mdm_available"],
                 "mdm_only": not version["days"],
             }
