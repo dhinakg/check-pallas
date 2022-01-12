@@ -1,7 +1,7 @@
 {
     "iOS (iPhone 12 series/13 series only)": [
         {
-            "name": "iOS (iPhone 12 series/13 series only) 15.2.1 (19C63)",
+            "name": "iOS 15.2.1 (19C63)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -73,7 +73,7 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS (all other non-legacy devices) 15.2.1 (19C63)",
+            "name": "iOS 15.2.1 (19C63)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -313,5 +313,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-01-12T19:17:41.210165+00:00"
+    "_date": "2022-01-12T19:29:08.167956+00:00"
 }
