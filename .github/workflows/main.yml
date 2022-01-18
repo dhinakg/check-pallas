@@ -26,3 +26,5 @@ jobs:
         with:
           branch: gh-pages
           folder: deploy
+          git-config-name: GitHub Actions
+          git-config-email: github-actions[bot]@users.noreply.github.com
