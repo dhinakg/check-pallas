@@ -13,8 +13,8 @@
         {
             "name": "iOS 15.2 (19C56)",
             "alternate": false,
-            "date": "2022-04-13T00:00:00+00:00",
-            "delay": 39,
+            "date": "2022-04-12T00:00:00+00:00",
+            "delay": 40,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -23,8 +23,8 @@
         {
             "name": "iOS 15.1.1 (19B81)",
             "alternate": false,
-            "date": "2022-03-14T00:00:00+00:00",
-            "delay": 65,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 66,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -33,8 +33,8 @@
         {
             "name": "iOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": "2022-03-14T00:00:00+00:00",
-            "delay": 87,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 88,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -43,8 +43,8 @@
         {
             "name": "iOS 15.1 (19B74)",
             "alternate": false,
-            "date": "2022-02-16T00:00:00+00:00",
-            "delay": 88,
+            "date": "2022-02-15T00:00:00+00:00",
+            "delay": 89,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -53,7 +53,7 @@
         {
             "name": "iOS 14.8 (18H17)",
             "alternate": true,
-            "date": "2022-01-25T00:00:00+00:00",
+            "date": "2022-01-24T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -63,7 +63,7 @@
         {
             "name": "iOS 15.0.2 (19A404)",
             "alternate": false,
-            "date": "2022-01-24T00:00:00+00:00",
+            "date": "2022-01-23T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -85,8 +85,8 @@
         {
             "name": "iOS 15.2 (19C56)",
             "alternate": false,
-            "date": "2022-04-13T00:00:00+00:00",
-            "delay": 39,
+            "date": "2022-04-12T00:00:00+00:00",
+            "delay": 40,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -95,8 +95,8 @@
         {
             "name": "iOS 15.1 (19B74)",
             "alternate": false,
-            "date": "2022-03-14T00:00:00+00:00",
-            "delay": 88,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 89,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -105,8 +105,8 @@
         {
             "name": "iOS 14.8.1 (18H107)",
             "alternate": true,
-            "date": "2022-03-14T00:00:00+00:00",
-            "delay": 87,
+            "date": "2022-03-13T00:00:00+00:00",
+            "delay": 88,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -115,7 +115,7 @@
         {
             "name": "iOS 14.8 (18H17)",
             "alternate": true,
-            "date": "2022-01-25T00:00:00+00:00",
+            "date": "2022-01-24T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -125,7 +125,7 @@
         {
             "name": "iOS 15.0.2 (19A404)",
             "alternate": false,
-            "date": "2022-01-24T00:00:00+00:00",
+            "date": "2022-01-23T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -313,5 +313,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-01-22T00:00:42.995036+00:00"
+    "_date": "2022-01-22T00:50:27.310106+00:00"
 }
