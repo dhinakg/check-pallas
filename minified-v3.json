@@ -14,7 +14,7 @@
             "name": "iOS 15.2 (19C56)",
             "alternate": false,
             "date": "2022-04-12T00:00:00+00:00",
-            "delay": 43,
+            "delay": 44,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -24,7 +24,7 @@
             "name": "iOS 15.1.1 (19B81)",
             "alternate": false,
             "date": "2022-03-13T00:00:00+00:00",
-            "delay": 69,
+            "delay": 70,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -66,7 +66,7 @@
             "name": "iOS 15.2 (19C56)",
             "alternate": false,
             "date": "2022-04-12T00:00:00+00:00",
-            "delay": 43,
+            "delay": 44,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -120,7 +120,7 @@
             "name": "iPadOS 15.2 (19C56)",
             "alternate": false,
             "date": "2022-04-12T00:00:00+00:00",
-            "delay": 43,
+            "delay": 44,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -174,7 +174,7 @@
             "name": "tvOS 15.1.1 (19J581)",
             "alternate": false,
             "date": "2022-03-13T00:00:00+00:00",
-            "delay": 85,
+            "delay": 86,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -233,5 +233,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-01-25T23:59:25.607205+00:00"
+    "_date": "2022-01-26T00:56:55.747908+00:00"
 }
