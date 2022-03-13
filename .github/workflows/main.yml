@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout Build Files
         uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3
         with:
           python-version: '3.x'
       - name: Deps
@@ -20,7 +20,7 @@ jobs:
       - name: Refresh
         run: |
           python3 -u check_pallas_v3.py
-          python3 -u check_pmv.py
+          python3 -u check_pmv.py || echo "::warning::check pmv failed!"
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
