@@ -451,7 +451,11 @@ for os in sorted_assets:
                 version["theoretical_date"] = current + datetime.timedelta(days=(90 - version["days"][0] + 1))
                 version["theoretical"] = version["days"][-1] if len(version["days"]) else -1
             else:
-                version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - 1]["days"][-1]))
+                j = 1
+                while not versions[i - j]["days"]:
+                    j += 1
+                
+                version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - j]["days"][-1]))
                 version["theoretical"] = -1
             # if i == 0:
             #     version["theoretical_date"] = None
