@@ -7,13 +7,13 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
             "name": "iOS 15.4 (19E241)",
             "alternate": false,
-            "date": "2022-07-02T00:00:00+00:00",
+            "date": "2022-06-29T00:00:00+00:00",
             "delay": 20,
             "latest": false,
             "imminent": false,
@@ -69,13 +69,13 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
             "name": "iOS 15.4 (19E241)",
             "alternate": false,
-            "date": "2022-07-02T00:00:00+00:00",
+            "date": "2022-06-29T00:00:00+00:00",
             "delay": 20,
             "latest": false,
             "imminent": false,
@@ -143,13 +143,13 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
             "name": "iPadOS 15.4 (19E241)",
             "alternate": false,
-            "date": "2022-07-02T00:00:00+00:00",
+            "date": "2022-06-29T00:00:00+00:00",
             "delay": 20,
             "latest": false,
             "imminent": false,
@@ -217,13 +217,13 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
             "name": "tvOS 15.4 (19L440)",
             "alternate": false,
-            "date": "2022-07-02T00:00:00+00:00",
+            "date": "2022-06-29T00:00:00+00:00",
             "delay": 20,
             "latest": false,
             "imminent": false,
@@ -259,7 +259,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -275,7 +275,7 @@
         {
             "name": "macOS Monterey 12.3 (21E230)",
             "alternate": false,
-            "date": "2022-07-02T00:00:00+00:00",
+            "date": "2022-06-29T00:00:00+00:00",
             "delay": 20,
             "latest": false,
             "imminent": false,
@@ -343,5 +343,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-04-03T12:39:18.347699+00:00"
+    "_date": "2022-04-03T13:05:04.194572+00:00"
 }
