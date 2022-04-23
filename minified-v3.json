@@ -283,7 +283,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 12.2 (21D49)",
+            "name": "macOS Monterey 12.2 (21D49)",
             "alternate": false,
             "date": "2022-05-11T00:00:00+00:00",
             "delay": 87,
@@ -313,5 +313,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-04-23T19:48:23.110369+00:00"
+    "_date": "2022-04-23T19:59:23.903356+00:00"
 }
