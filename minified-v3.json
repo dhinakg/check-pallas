@@ -39,16 +39,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 15.2.1 (19C63)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (all other non-legacy devices)": [
@@ -91,16 +81,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 15.2.1 (19C63)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy": [
@@ -155,16 +135,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 15.2.1 (19C63)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy": [
@@ -209,16 +179,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 15.2 (19K53)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -291,27 +251,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Monterey 12.1 (21C52)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Big Sur 11.6.2 (20G314)",
-            "alternate": false,
-            "date": "2022-04-26T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2022-04-26T17:51:59.711618+00:00"
+    "_date": "2022-04-26T18:26:55.246674+00:00"
 }
