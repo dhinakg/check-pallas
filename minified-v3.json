@@ -201,17 +201,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.6.3 (20G415)",
-            "alternate": false,
-            "date": "2022-05-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2022-05-15T17:49:45.514771+00:00"
+    "_date": "2022-05-15T18:08:25.454195+00:00"
 }
