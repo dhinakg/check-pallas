@@ -151,11 +151,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 15.5 (19L570)",
+            "name": "tvOS 15.5.1 (19L580)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 15.5 (19L570)",
+            "alternate": false,
+            "date": "2022-08-23T00:00:00+00:00",
+            "delay": 9,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -263,5 +273,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-05-25T16:51:06.842252+00:00"
+    "_date": "2022-05-25T17:29:10.362557+00:00"
 }
