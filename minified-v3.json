@@ -13,8 +13,8 @@
         {
             "name": "iOS 15.4.1 (19E258)",
             "alternate": false,
-            "date": "2022-08-15T00:00:00+00:00",
-            "delay": 65,
+            "date": "2022-08-14T00:00:00+00:00",
+            "delay": 66,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -23,8 +23,8 @@
         {
             "name": "iOS 15.4 (19E241)",
             "alternate": false,
-            "date": "2022-06-30T00:00:00+00:00",
-            "delay": 82,
+            "date": "2022-06-29T00:00:00+00:00",
+            "delay": 83,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -33,7 +33,7 @@
         {
             "name": "iOS 15.3.1 (19D52)",
             "alternate": false,
-            "date": "2022-06-13T00:00:00+00:00",
+            "date": "2022-06-12T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -55,8 +55,8 @@
         {
             "name": "iOS 15.4.1 (19E258)",
             "alternate": false,
-            "date": "2022-08-15T00:00:00+00:00",
-            "delay": 65,
+            "date": "2022-08-14T00:00:00+00:00",
+            "delay": 66,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -65,8 +65,8 @@
         {
             "name": "iOS 15.4 (19E241)",
             "alternate": false,
-            "date": "2022-06-30T00:00:00+00:00",
-            "delay": 82,
+            "date": "2022-06-29T00:00:00+00:00",
+            "delay": 83,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -75,7 +75,7 @@
         {
             "name": "iOS 15.3.1 (19D52)",
             "alternate": false,
-            "date": "2022-06-13T00:00:00+00:00",
+            "date": "2022-06-12T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -109,7 +109,7 @@
         {
             "name": "iPadOS 15.4.1 (19E258)",
             "alternate": false,
-            "date": "2022-08-15T00:00:00+00:00",
+            "date": "2022-08-14T00:00:00+00:00",
             "delay": 66,
             "latest": false,
             "imminent": false,
@@ -273,5 +273,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-06-05T00:00:41.066034+00:00"
+    "_date": "2022-06-05T01:28:01.474411+00:00"
 }
