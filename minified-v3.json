@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 12 series/13 series only)": [
         {
-            "name": "iOS 15.5 (19F77)",
+            "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 65,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -23,11 +33,21 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 15.5 (19F77)",
+            "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 65,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -57,11 +77,21 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 15.5 (19F77)",
+            "name": "iPadOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 65,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -173,5 +203,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-07-20T16:38:53.892174+00:00"
+    "_date": "2022-07-20T17:05:21.931252+00:00"
 }
