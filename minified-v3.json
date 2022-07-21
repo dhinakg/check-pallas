@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 12 series/13 series only)": [
         {
-            "name": "iOS 15.5 (19F77)",
+            "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 66,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -23,11 +33,21 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 15.5 (19F77)",
+            "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 66,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -57,11 +77,21 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 15.5 (19F77)",
+            "name": "iPadOS 15.6 (19G71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 66,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -91,11 +121,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 15.5.1 (19L580)",
+            "name": "tvOS 15.6 (19M65)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 15.5.1 (19L580)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 57,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -123,7 +163,7 @@
     ],
     "macOS": [
         {
-            "name": "macOS Monterey 12.4 (21F79)",
+            "name": "macOS Monterey 12.5 (21G72)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -133,11 +173,31 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Big Sur 11.6.7 (20G630)",
+            "name": "macOS Big Sur 11.6.8 (20G730)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.4 (21F79)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 66,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.6.7 (20G630)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -173,5 +233,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-07-21T20:24:11.465568+00:00"
+    "_date": "2022-07-21T20:44:23.262901+00:00"
 }
