@@ -1,21 +1,11 @@
 {
     "iOS (iPhone 12 series/13 series only)": [
         {
-            "name": "iOS 15.6 (19G71)",
+            "name": "iOS 15.5 (19F77)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.5 (19F77)",
-            "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 67,
-            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -33,21 +23,11 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 15.6 (19G71)",
+            "name": "iOS 15.5 (19F77)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.5 (19F77)",
-            "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 67,
-            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -77,21 +57,11 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 15.6 (19G71)",
+            "name": "iPadOS 15.5 (19F77)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 15.5 (19F77)",
-            "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 67,
-            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -121,21 +91,11 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 15.6 (19M65)",
+            "name": "tvOS 15.5.1 (19L580)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "tvOS 15.5.1 (19L580)",
-            "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 58,
-            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -163,31 +123,11 @@
     ],
     "macOS": [
         {
-            "name": "macOS Monterey 12.5 (21G72)",
-            "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.6.8 (20G730)",
-            "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
             "name": "macOS Monterey 12.4 (21F79)",
             "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 67,
-            "latest": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -195,9 +135,9 @@
         {
             "name": "macOS Big Sur 11.6.7 (20G630)",
             "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 43,
-            "latest": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -233,5 +173,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-07-22T20:58:45.472105+00:00"
+    "_date": "2022-07-22T21:22:49.381885+00:00"
 }
