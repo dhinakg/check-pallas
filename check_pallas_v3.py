@@ -74,17 +74,28 @@ alternate_names = {"c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Upd
 
 
 oses = {
-    "iOS (iPhone 12 series/13 series only)": {
+    "iOS (iPhone 14 series)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
         "devices": {
-            "iPhone 12": {
-                "ProductType": "iPhone13,2",
-                "HWModelStr": "D53gAP",
+            "iPhone 14": {
+                "ProductType": "iPhone14,7",
+                "HWModelStr": "D27AP",
             },
         },
     },
+    # "iPhone 12 series/13 series": {
+    #     "main": asset_audiences["iOS"]["iOS release"],
+    #     "os_category": "iOS",
+    #     "default_name": "iPhone",
+    #     "devices": {
+    #         "iPhone 12": {
+    #             "ProductType": "iPhone13,2",
+    #             "HWModelStr": "D53gAP",
+    #         },
+    #     },
+    # },
     "iOS (all other non-legacy devices)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
