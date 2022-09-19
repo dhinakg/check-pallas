@@ -121,6 +121,31 @@ oses = {
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
+    "iOS Legacy v2": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            # "iPhone X": {
+            #   "ProductType": "iPhone10,6",
+            #   "HWModelStr": "D221AP",
+            # },
+            "iPhone XR": {
+                "ProductType": "iPhone11,8",
+                "HWModelStr": "N841AP",
+            },
+            # "iPhone 12": {
+            #     "ProductType": "iPhone13,2",
+            #     "HWModelStr": "D53gAP",
+            # },
+            "iPhone 6s": {
+                "ProductType": "iPhone8,1",
+                "HWModelStr": "N71AP",
+            },
+            # "iPhone 7": {"ProductType": "iPhone9,3", "HWModelStr": "D101AP"},
+            # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
+        },
+    },
     "iOS Legacy": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
