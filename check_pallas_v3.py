@@ -542,7 +542,7 @@ for os, versions in resorted_assets.items():
         current = datetime.datetime.now(datetime.timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
         minified.setdefault(os, []).append(
             {
-                "name": f"{version['title'] or (os + ' ' + version['name'])} ({version['build']})",
+                "name": f"{version['title'] or (oses[os]['os_category'] + ' ' + version['name'])} ({version['build']})",
                 "alternate": version["alternate"],
                 "date": version["theoretical_date"].isoformat() if version["theoretical_date"] else None,
                 "delay": version["theoretical"],  # 0 = latest, -1 - imminent removal, other - usable delay
