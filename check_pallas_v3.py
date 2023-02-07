@@ -25,15 +25,22 @@ asset_audiences = {
     "iOS": {
         "iOS release": "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
         "iOS internal": "ce9c2203-903b-4fb3-9f03-040dc2202694",
+        "iOS security updates": "c724cb61-e974-42d3-a911-ffd4dce11eda",
         "iOS 11 developer beta": "b7580fda-59d3-43ae-9488-a81b825e3c73",
         "iOS 11 AppleSeed beta": "f23050eb-bdfa-4b23-9eca-453e3b1a247c",
+        "iOS 11 public beta": "5839f7cf-9610-483a-980f-6c4266a22f17",
         "iOS 12 developer beta": "ef473147-b8e7-4004-988e-0ae20e2532ef",
+        "iOS 12 public beta": "94bf0742-38e6-4379-adf9-ec9995dde586",
         "iOS 13 developer beta": "d8ab8a45-ee39-4229-891e-9d3ca78a87ca",
+        "iOS 13 public beta": "98bcaac1-66ed-4691-80e4-739f8ed5bb19",
         "iOS 14 developer beta": "dbbb0481-d521-4cdf-a2a4-5358affc224b",
         "iOS 14 AppleSeed beta": "84da8706-e267-4554-8207-865ae0c3a120",
         "iOS 14 public beta": "1506c359-28af-4ee1-a043-42df9d496d38",
         "iOS 15 developer beta": "ce48f60c-f590-4157-a96f-41179ca08278",
         "iOS 15 public beta": "9e12a7a5-36ac-4583-b4fb-484736c739a8",
+        "iOS 16 developer beta": "a6050bca-50d8-4e45-adc2-f7333396a42c",
+        "iOS 16 AppleSeed beta": "817ce601-f365-4294-8982-b00f547bbe4a",
+        "iOS 16 public beta": "7466521f-cc37-4267-8f46-78033fa700c2"
     },
     "tvOS": {
         "tvOS release": "356d9da0-eee4-4c6c-bbe5-99b60eadddf0",
@@ -44,6 +51,8 @@ asset_audiences = {
         "tvOS 14 developer beta": "65254ac3-f331-4c19-8559-cbe22f5bc1a6",
         "tvOS 14 AppleSeed beta": "a46c2f97-0afb-4a36-bcf6-8c0d74ec21be",
         "tvOS 15 developer beta": "4d0dcdf7-12f2-4ebf-9672-ac4a4459a8bc",
+        "tvOS 15 AppleSeed beta": "3565d2d0-06b5-450d-9c01-7086cdd13f97",
+        "tvOS 16 developer beta": "d6bac98b-9e2a-4f87-9aba-22c898b25d84"
     },
     "watchOS": {
         "watchOS release": "b82fcf9c-c284-41c9-8eb2-e69bf5a5269f",
@@ -51,13 +60,17 @@ asset_audiences = {
         "watchOS 5 developer beta": "e841259b-ad2e-4046-b80f-ca96bc2e17f3",
         "watchOS 6 developer beta": "d08cfd47-4a4a-4825-91b5-3353dfff194f",
         "watchOS 7 developer beta": "ff6df985-3cbe-4d54-ba5f-50d02428d2a3",
+        "watchOS 7 public beta": "6ac47c79-d0c4-42dc-b499-baa45e363c40",
         "watchOS 8 developer beta": "b407c130-d8af-42fc-ad7a-171efea5a3d0",
         "watchOS 8 public beta": "f755ea49-3d47-4829-9cdf-87aa76456282",
+        "watchOS 9 developer beta": "341f2a17-0024-46cd-968d-b4444ec3699f",
+        "watchOS 9 public beta": "4935cf61-2a58-437a-be3f-4db423970e43"
     },
     "audioOS": {
         "audioOS release": "0322d49d-d558-4ddf-bdff-c0443d0e6fac",
         "audioOS 14 AppleSeed beta": "b05ddb59-b26d-4c89-9d09-5fda15e99207",
         "audioOS 15 AppleSeed beta": "58ff8d56-1d77-4473-ba88-ee1690475e40",
+        "audioOS 16 AppleSeed beta": "59377047-7b3f-45b9-8e99-294c0daf3c85"
     },
     "macOS": {
         "macOS release": "60b55e25-a8ed-4f45-826c-c1495a4ccc65",
@@ -67,6 +80,9 @@ asset_audiences = {
         "macOS 12 developer beta": "298e518d-b45e-4d36-94be-34a63d6777ec",
         "macOS 12 AppleSeed beta": "a3799e8a-246d-4dee-b418-76b4519a15a2",
         "macOS 12 public beta": "9f86c787-7c59-45a7-a79a-9c164b00f866",
+        "macOS 13 developer beta": "683e9586-8a82-4e5f-b0e7-767541864b8b",
+        "macOS 13 AppleSeed beta": "3c45c074-41be-4b5b-a511-8592336e6783",
+        "macOS 13 public beta": "800034a9-994c-4ecc-af4d-7b3b2ee0a5a6"
     },
 }
 
@@ -96,7 +112,7 @@ oses = {
     #         },
     #     },
     # },
-    "iOS (all other non-legacy devices)": {
+    "iOS (all other devices supporting iOS 16)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -121,7 +137,7 @@ oses = {
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
-    "iOS Legacy v2": {
+    "iOS Legacy v2 (device supporting up to iOS 15)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -134,7 +150,7 @@ oses = {
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
-    "iOS Legacy": {
+    "iOS Legacy (device supporting up to iOS 12)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -145,8 +161,19 @@ oses = {
             }
         },
     },
+    "iPadOS (October 2022 models)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad Pro 12.9-inch (6th generation) WiFi": {
+                "ProductType": "iPad14,5",
+                "HWModelStr": "J620AP",
+            },
+        },
+    },
     "iPadOS": {
-        "main": "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+        "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
         "devices": {
@@ -156,8 +183,19 @@ oses = {
             },
         },
     },
-    "iPadOS Legacy": {
-        "main": "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+    "iPadOS Legacy v2 (devices supporting up to iOS 15)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad mini 4": {
+                "ProductType": "iPad5,1",
+                "HWModelStr": "J96AP",
+            },
+        },
+    },
+    "iPadOS Legacy (devices supporting up to iOS 12)": {
+        "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
         "devices": {
