@@ -90,17 +90,17 @@ alternate_names = {"c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Upd
 
 
 oses = {
-    "iOS (iPhone 14 series)": {
-        "main": asset_audiences["iOS"]["iOS release"],
-        "os_category": "iOS",
-        "default_name": "iPhone",
-        "devices": {
-            "iPhone 14": {
-                "ProductType": "iPhone14,7",
-                "HWModelStr": "D27AP",
-            },
-        },
-    },
+    # "iOS (iPhone 14 series)": {
+    #     "main": asset_audiences["iOS"]["iOS release"],
+    #     "os_category": "iOS",
+    #     "default_name": "iPhone",
+    #     "devices": {
+    #         "iPhone 14": {
+    #             "ProductType": "iPhone14,7",
+    #             "HWModelStr": "D27AP",
+    #         },
+    #     },
+    # },
     # "iPhone 12 series/13 series": {
     #     "main": asset_audiences["iOS"]["iOS release"],
     #     "os_category": "iOS",
@@ -112,19 +112,23 @@ oses = {
     #         },
     #     },
     # },
-    "iOS (all other devices supporting iOS 16)": {
+    "iOS (devices supporting iOS 16)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
         "devices": {
+            "iPhone 14": {
+                "ProductType": "iPhone14,7",
+                "HWModelStr": "D27AP",
+            },
             # "iPhone X": {
             #   "ProductType": "iPhone10,6",
             #   "HWModelStr": "D221AP",
             # },
-            "iPhone XR": {
-                "ProductType": "iPhone11,8",
-                "HWModelStr": "N841AP",
-            },
+            # "iPhone XR": {
+            #     "ProductType": "iPhone11,8",
+            #     "HWModelStr": "N841AP",
+            # },
             # "iPhone 12": {
             #     "ProductType": "iPhone13,2",
             #     "HWModelStr": "D53gAP",
@@ -161,7 +165,7 @@ oses = {
             }
         },
     },
-    "iPadOS (October 2022 models)": {
+    "iPadOS (devices supporting iPadOS 16)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
@@ -170,17 +174,10 @@ oses = {
                 "ProductType": "iPad14,5",
                 "HWModelStr": "J620AP",
             },
-        },
-    },
-    "iPadOS": {
-        "main": asset_audiences["iOS"]["iOS release"],
-        "default_name": "iPad",
-        "os_category": "iPadOS",
-        "devices": {
-            "iPad (8th gen) WiFi": {
-                "ProductType": "iPad11,6",
-                "HWModelStr": "J171aAP",
-            },
+            # "iPad (8th gen) WiFi": {
+            #     "ProductType": "iPad11,6",
+            #     "HWModelStr": "J171aAP",
+            # },
         },
     },
     "iPadOS Legacy v2 (devices supporting up to iOS 15)": {
