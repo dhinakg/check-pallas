@@ -3,10 +3,10 @@ import datetime
 import io
 import itertools
 import json
-from pathlib import Path
 import plistlib
-from pprint import pprint
 import zipfile
+from pathlib import Path
+from pprint import pprint
 
 import packaging.version
 import requests
@@ -40,7 +40,7 @@ asset_audiences = {
         "iOS 15 public beta": "9e12a7a5-36ac-4583-b4fb-484736c739a8",
         "iOS 16 developer beta": "a6050bca-50d8-4e45-adc2-f7333396a42c",
         "iOS 16 AppleSeed beta": "817ce601-f365-4294-8982-b00f547bbe4a",
-        "iOS 16 public beta": "7466521f-cc37-4267-8f46-78033fa700c2"
+        "iOS 16 public beta": "7466521f-cc37-4267-8f46-78033fa700c2",
     },
     "tvOS": {
         "tvOS release": "356d9da0-eee4-4c6c-bbe5-99b60eadddf0",
@@ -52,7 +52,7 @@ asset_audiences = {
         "tvOS 14 AppleSeed beta": "a46c2f97-0afb-4a36-bcf6-8c0d74ec21be",
         "tvOS 15 developer beta": "4d0dcdf7-12f2-4ebf-9672-ac4a4459a8bc",
         "tvOS 15 AppleSeed beta": "3565d2d0-06b5-450d-9c01-7086cdd13f97",
-        "tvOS 16 developer beta": "d6bac98b-9e2a-4f87-9aba-22c898b25d84"
+        "tvOS 16 developer beta": "d6bac98b-9e2a-4f87-9aba-22c898b25d84",
     },
     "watchOS": {
         "watchOS release": "b82fcf9c-c284-41c9-8eb2-e69bf5a5269f",
@@ -64,13 +64,13 @@ asset_audiences = {
         "watchOS 8 developer beta": "b407c130-d8af-42fc-ad7a-171efea5a3d0",
         "watchOS 8 public beta": "f755ea49-3d47-4829-9cdf-87aa76456282",
         "watchOS 9 developer beta": "341f2a17-0024-46cd-968d-b4444ec3699f",
-        "watchOS 9 public beta": "4935cf61-2a58-437a-be3f-4db423970e43"
+        "watchOS 9 public beta": "4935cf61-2a58-437a-be3f-4db423970e43",
     },
     "audioOS": {
         "audioOS release": "0322d49d-d558-4ddf-bdff-c0443d0e6fac",
         "audioOS 14 AppleSeed beta": "b05ddb59-b26d-4c89-9d09-5fda15e99207",
         "audioOS 15 AppleSeed beta": "58ff8d56-1d77-4473-ba88-ee1690475e40",
-        "audioOS 16 AppleSeed beta": "59377047-7b3f-45b9-8e99-294c0daf3c85"
+        "audioOS 16 AppleSeed beta": "59377047-7b3f-45b9-8e99-294c0daf3c85",
     },
     "macOS": {
         "macOS release": "60b55e25-a8ed-4f45-826c-c1495a4ccc65",
@@ -82,7 +82,7 @@ asset_audiences = {
         "macOS 12 public beta": "9f86c787-7c59-45a7-a79a-9c164b00f866",
         "macOS 13 developer beta": "683e9586-8a82-4e5f-b0e7-767541864b8b",
         "macOS 13 AppleSeed beta": "3c45c074-41be-4b5b-a511-8592336e6783",
-        "macOS 13 public beta": "800034a9-994c-4ecc-af4d-7b3b2ee0a5a6"
+        "macOS 13 public beta": "800034a9-994c-4ecc-af4d-7b3b2ee0a5a6",
     },
 }
 
@@ -112,7 +112,18 @@ oses = {
     #         },
     #     },
     # },
-    "iOS (devices supporting iOS 16)": {
+    "September 2023 iPhones": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            "iPhone 15": {
+                "ProductType": "iPhone15,4",
+                "HWModelStr": "D37AP",
+            },
+        },
+    },
+    "iOS (devices supporting iOS 17)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -141,6 +152,17 @@ oses = {
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
+    "iOS Legacy v3 (devices supporting up to iOS 16)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            "iPhone X": {
+                "ProductType": "iPhone10,6",
+                "HWModelStr": "D221AP",
+            },
+        },
+    },
     "iOS Legacy v2 (device supporting up to iOS 15)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
@@ -165,7 +187,7 @@ oses = {
             }
         },
     },
-    "iPadOS (devices supporting iPadOS 16)": {
+    "iPadOS (devices supporting iPadOS 17)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
@@ -180,7 +202,18 @@ oses = {
             # },
         },
     },
-    "iPadOS Legacy v2 (devices supporting up to iOS 15)": {
+    "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad (5th generation) Wi-Fi": {
+                "ProductType": "iPad6,11",
+                "HWModelStr": "J71sAP",
+            },
+        },
+    },
+    "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
@@ -315,9 +348,13 @@ def get_title(default_name, request):
             docs_result = get_json(docs_response.text)
             documentation_cache[default_name][asset["SUDocumentationID"]] = None
             if docs_result["Assets"]:
-                docs_zip = zipfile.ZipFile(io.BytesIO(session.get(docs_result["Assets"][0]["__BaseURL"] + docs_result["Assets"][0]["__RelativePath"]).content))
+                docs_zip = zipfile.ZipFile(
+                    io.BytesIO(session.get(docs_result["Assets"][0]["__BaseURL"] + docs_result["Assets"][0]["__RelativePath"]).content)
+                )
                 if "AssetData/en.lproj/documentation.strings" in docs_zip.namelist():
-                    documentation_cache[default_name][asset["SUDocumentationID"]] = plistlib.loads(docs_zip.read("AssetData/en.lproj/documentation.strings")).get("HumanReadableUpdateName")
+                    documentation_cache[default_name][asset["SUDocumentationID"]] = plistlib.loads(
+                        docs_zip.read("AssetData/en.lproj/documentation.strings")
+                    ).get("HumanReadableUpdateName")
     except requests.HTTPError:
         documentation_cache[default_name][asset["SUDocumentationID"]] = None
 
@@ -380,7 +417,12 @@ for os, this_os in oses.items():
             except requests.HTTPError:
                 # minor_versions[minor_version]["mdm_available"] = False
                 print(f"Requested product version {available_version} with {device} not available")
-        json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+        json.dump(
+            sorted_assets,
+            Path("testing.json").open("w"),
+            indent=4,
+            default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x,
+        )
 
 
 # Get the actual periods
@@ -479,7 +521,12 @@ for os, this_os in oses.items():
                             print(f"No alternate assets found for {period} with {device}")
             else:
                 print(f"No assets found for {device}")
-        json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+        json.dump(
+            sorted_assets,
+            Path("testing.json").open("w"),
+            indent=4,
+            default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x,
+        )
 
 
 class reversor:
@@ -513,24 +560,30 @@ for os in sorted_assets:
                 j = 1
                 while not versions[i - j]["days"]:
                     j += 1
-                
+
                 version["theoretical_date"] = current + datetime.timedelta(days=(90 - versions[i - j]["days"][-1]))
                 version["theoretical"] = -1
             # if i == 0:
             #     version["theoretical_date"] = None
 
-json.dump(sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+json.dump(
+    sorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x
+)
 
 resorted_assets = {i: [] for i in oses}
 
 for os in sorted_assets:
     resorted_assets[os] = list(itertools.chain.from_iterable(sorted_assets[os].values()))
 
-json.dump(resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+json.dump(
+    resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x
+)
 
 for os in sorted_assets:
     resorted_assets[os].sort(key=lambda x: (x["days"][0] if x["days"] else 91, reversor(packaging.version.parse(x["name"]))))
-json.dump(resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x)
+json.dump(
+    resorted_assets, Path("testing.json").open("w"), indent=4, default=lambda x: x.isoformat() if isinstance(x, datetime.datetime) else x
+)
 
 minified = {}
 
@@ -553,7 +606,7 @@ for os, versions in resorted_assets.items():
 
 for os, versions in minified.items():
     for version in list(versions):
-        if version["mdm_only"] and not version["mdm_available"]:  # Dead    
+        if version["mdm_only"] and not version["mdm_available"]:  # Dead
             versions.remove(version)
 
 minified["_date"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
