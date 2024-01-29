@@ -1,4 +1,16 @@
 {
+    "September 2023 iPhones": [
+        {
+            "name": "iOS 17.0.2 (21A350)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
     "iOS (devices supporting iOS 17)": [
         {
             "name": "iOS 17.0.1 (21A340)",
@@ -469,5 +481,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-09-21T21:06:53.233108+00:00"
+    "_date": "2023-09-21T21:42:15.178792+00:00"
 }
