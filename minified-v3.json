@@ -27,7 +27,7 @@
             "delay": 71,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -345,5 +345,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-07-28T12:19:00.275178+00:00"
+    "_date": "2023-07-28T12:55:58.924702+00:00"
 }
