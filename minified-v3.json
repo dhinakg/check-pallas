@@ -361,6 +361,16 @@
     ],
     "macOS": [
         {
+            "name": "macOS Sonoma 14.0 (23A344)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
             "name": "macOS Ventura 13.6 (22G120)",
             "alternate": false,
             "date": null,
@@ -481,5 +491,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-09-26T16:44:04.857763+00:00"
+    "_date": "2023-09-26T17:07:49.567531+00:00"
 }
