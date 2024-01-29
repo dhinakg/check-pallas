@@ -17,7 +17,7 @@
             "delay": 46,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -37,7 +37,7 @@
             "delay": 83,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -119,13 +119,13 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
     "iOS Legacy v2": [
         {
-            "name": "iOS 15.7.2 (19H218)",
+            "name": "iOS Legacy v2 15.7.2 (19H218)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -163,7 +163,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
@@ -375,5 +375,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-15T16:46:29.739900+00:00"
+    "_date": "2023-01-15T17:28:49.299634+00:00"
 }
