@@ -337,17 +337,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.7.3 (20G1116)",
-            "alternate": false,
-            "date": "2023-05-16T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-05-16T21:06:33.738302+00:00"
+    "_date": "2023-05-16T21:43:47.822950+00:00"
 }
