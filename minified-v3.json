@@ -1,11 +1,31 @@
 {
     "iOS (devices supporting iOS 16)": [
         {
-            "name": "iOS 16.6.1 (20G81)",
+            "name": "iOS 17 (21A329)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.6.1 (20G81)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.6.1 (20G81)",
+            "alternate": false,
+            "date": "2023-12-17T00:00:00+00:00",
+            "delay": 11,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -97,11 +117,31 @@
     ],
     "iPadOS (devices supporting iPadOS 16)": [
         {
-            "name": "iPadOS 16.6.1 (20G81)",
+            "name": "iPadOS 17 (21A329)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.6.1 (20G81)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.6.1 (20G81)",
+            "alternate": false,
+            "date": "2023-12-17T00:00:00+00:00",
+            "delay": 11,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -199,7 +239,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -355,5 +395,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-09-18T17:07:01.952679+00:00"
+    "_date": "2023-09-18T17:42:48.693426+00:00"
 }
