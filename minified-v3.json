@@ -295,16 +295,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 16.3 (20K650)",
-            "alternate": false,
-            "date": "2023-05-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -419,5 +409,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-05-07T17:42:40.948232+00:00"
+    "_date": "2023-05-07T18:08:53.325222+00:00"
 }
