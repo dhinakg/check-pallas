@@ -29,16 +29,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.4 (20E247)",
-            "alternate": false,
-            "date": "2023-07-06T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
@@ -125,16 +115,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.4 (20E246)",
-            "alternate": false,
-            "date": "2023-07-06T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v2 (devices supporting up to iOS 15)": [
@@ -335,5 +315,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-07-06T17:07:57.436392+00:00"
+    "_date": "2023-07-06T17:42:18.440126+00:00"
 }
