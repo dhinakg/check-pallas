@@ -179,11 +179,31 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 16.1.1 (20B101)",
+            "name": "iPadOS 16.2 (20C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.7.2 (19H218)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.1.1 (20B101)",
+            "alternate": false,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 34,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -191,9 +211,9 @@
         {
             "name": "iPadOS 15.7.1 (19H117)",
             "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 47,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -243,11 +263,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 16.1 (20K71)",
+            "name": "tvOS 16.2 (20K362)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 16.1 (20K71)",
+            "alternate": false,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 50,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -265,11 +295,41 @@
     ],
     "macOS": [
         {
-            "name": "macOS Ventura 13.0.1 (22A400)",
+            "name": "macOS Ventura 13.1 (22C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.6.2 (21G320)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.7.2 (20G1020)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.0.1 (22A400)",
+            "alternate": false,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 34,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -277,9 +337,9 @@
         {
             "name": "macOS Monterey 12.6.1 (21G217)",
             "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 50,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -287,9 +347,9 @@
         {
             "name": "macOS Big Sur 11.7.1 (20G918)",
             "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2023-03-13T00:00:00+00:00",
+            "delay": 50,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -325,5 +385,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-12-13T18:07:32.382082+00:00"
+    "_date": "2022-12-13T18:12:21.438511+00:00"
 }
