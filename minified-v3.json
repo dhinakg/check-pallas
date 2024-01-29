@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.1 (20B82)",
+            "name": "iOS 16.1.1 (20B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.1 (20B82)",
+            "alternate": false,
+            "date": "2023-02-07T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -53,13 +63,13 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 16.1 (20B82)",
+            "name": "iOS 16.1.1 (20B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -70,6 +80,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.1 (20B82)",
+            "alternate": false,
+            "date": "2023-02-07T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -199,13 +219,13 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 16.1 (20B82)",
+            "name": "iPadOS 16.1.1 (20B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -216,6 +236,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.1 (20B82)",
+            "alternate": false,
+            "date": "2023-02-07T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -315,13 +345,13 @@
     ],
     "macOS": [
         {
-            "name": "macOS Ventura 13.0 (22A380)",
+            "name": "macOS Ventura 13.0.1 (22A400)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -340,6 +370,16 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.0 (22A380)",
+            "alternate": false,
+            "date": "2023-02-07T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -395,5 +435,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-11-09T17:47:22.681931+00:00"
+    "_date": "2022-11-09T18:10:25.255630+00:00"
 }
