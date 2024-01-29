@@ -7,7 +7,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -69,7 +69,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -225,7 +225,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -351,7 +351,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -435,5 +435,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-11-09T18:52:03.134932+00:00"
+    "_date": "2022-11-09T19:42:59.007633+00:00"
 }
