@@ -1,7 +1,7 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.1.1 (20B101)",
+            "name": "iOS (iPhone 14 series) 16.1.1 (20B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -63,7 +63,7 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 16.1.1 (20B101)",
+            "name": "iOS (all other non-legacy devices) 16.1.1 (20B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -395,5 +395,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-11-16T21:08:40.873470+00:00"
+    "_date": "2022-11-16T23:08:52.329475+00:00"
 }
