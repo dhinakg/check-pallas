@@ -1,7 +1,7 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.2 (20C65)",
+            "name": "iOS (iPhone 14 series) 16.2 (20C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -11,7 +11,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1.2 (20B110)",
+            "name": "iOS (iPhone 14 series) 16.1.2 (20B110)",
             "alternate": false,
             "date": "2023-03-13T00:00:00+00:00",
             "delay": 46,
@@ -31,7 +31,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1 (20B82)",
+            "name": "iOS (iPhone 14 series) 16.1 (20B82)",
             "alternate": false,
             "date": "2023-02-07T00:00:00+00:00",
             "delay": 83,
@@ -47,13 +47,13 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 16.2 (20C65)",
+            "name": "iOS (all other non-legacy devices) 16.2 (20C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -63,7 +63,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1.2 (20B110)",
+            "name": "iOS (all other non-legacy devices) 16.1.2 (20B110)",
             "alternate": false,
             "date": "2023-03-13T00:00:00+00:00",
             "delay": 46,
@@ -93,7 +93,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1 (20B82)",
+            "name": "iOS (all other non-legacy devices) 16.1 (20B82)",
             "alternate": false,
             "date": "2023-02-07T00:00:00+00:00",
             "delay": 83,
@@ -375,5 +375,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-15T01:15:19.335645+00:00"
+    "_date": "2023-01-15T02:12:33.747286+00:00"
 }
