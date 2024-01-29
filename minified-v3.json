@@ -1,7 +1,7 @@
 {
     "September 2023 iPhones": [
         {
-            "name": "iOS 17.0.2 (21A350)",
+            "name": "iOS 17.0.3 (21A360)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -9,11 +9,21 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
+        },
+        {
+            "name": "iOS 17.0.2 (21A350)",
+            "alternate": false,
+            "date": "2024-01-02T00:00:00+00:00",
+            "delay": 13,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
         }
     ],
     "iOS (devices supporting iOS 17)": [
         {
-            "name": "iOS 17.0.2 (21A351)",
+            "name": "iOS 17.0.3 (21A360)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -30,6 +40,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.0.2 (21A351)",
+            "alternate": false,
+            "date": "2024-01-02T00:00:00+00:00",
+            "delay": 8,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -181,7 +201,7 @@
     ],
     "iPadOS (devices supporting iPadOS 17)": [
         {
-            "name": "iPadOS 17.0.2 (21A351)",
+            "name": "iPadOS 17.0.3 (21A360)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -198,6 +218,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.0.2 (21A351)",
+            "alternate": false,
+            "date": "2024-01-02T00:00:00+00:00",
+            "delay": 8,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -511,5 +541,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-10-04T17:07:49.957801+00:00"
+    "_date": "2023-10-04T17:42:27.469764+00:00"
 }
