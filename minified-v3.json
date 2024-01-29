@@ -59,16 +59,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.0.1 (20A371)",
-            "alternate": false,
-            "date": "2022-12-21T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (all other non-legacy devices)": [
@@ -151,16 +141,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.0 (20A362)",
-            "alternate": false,
-            "date": "2022-12-21T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2": [
@@ -415,5 +395,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-12-21T20:07:49.302559+00:00"
+    "_date": "2022-12-21T20:41:59.024224+00:00"
 }
