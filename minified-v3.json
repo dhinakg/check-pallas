@@ -283,11 +283,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 16.2 (20K362)",
+            "name": "tvOS 16.3 (20K650)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 16.2 (20K362)",
+            "alternate": false,
+            "date": "2023-04-24T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -405,5 +415,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-24T18:10:04.123913+00:00"
+    "_date": "2023-01-24T18:44:38.312503+00:00"
 }
