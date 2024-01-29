@@ -181,16 +181,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17 (21A329)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -243,16 +233,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.6.1 (20G81)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
@@ -389,16 +369,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17 (21A329)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -451,16 +421,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.6.1 (20G81)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": [
@@ -659,27 +619,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Ventura 13.5.2 (22G91)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Monterey 12.6.9 (21G726)",
-            "alternate": false,
-            "date": "2023-12-20T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-12-20T17:07:29.053520+00:00"
+    "_date": "2023-12-20T17:43:36.456282+00:00"
 }
