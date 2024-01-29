@@ -14,7 +14,7 @@
             "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 33,
+            "delay": 34,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 33,
+            "delay": 34,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -90,7 +90,7 @@
             "name": "iPadOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 33,
+            "delay": 34,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -134,7 +134,7 @@
             "name": "tvOS 15.5.1 (19L580)",
             "alternate": false,
             "date": "2022-10-18T00:00:00+00:00",
-            "delay": 89,
+            "delay": 90,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -144,11 +144,11 @@
             "name": "tvOS 15.5 (19L570)",
             "alternate": false,
             "date": "2022-08-23T00:00:00+00:00",
-            "delay": 90,
+            "delay": -1,
             "latest": false,
-            "imminent": false,
+            "imminent": true,
             "mdm_available": true,
-            "mdm_only": false
+            "mdm_only": true
         }
     ],
     "macOS": [
@@ -176,7 +176,7 @@
             "name": "macOS Monterey 12.5 (21G72)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 33,
+            "delay": 34,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -196,7 +196,7 @@
             "name": "macOS Big Sur 11.6.7 (20G630)",
             "alternate": false,
             "date": "2022-10-18T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -213,5 +213,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-08-22T23:57:41.093028+00:00"
+    "_date": "2022-08-23T01:51:40.625788+00:00"
 }
