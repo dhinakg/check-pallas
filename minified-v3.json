@@ -65,11 +65,21 @@
     ],
     "iOS Legacy": [
         {
-            "name": "iOS 12.5.5 (16H62)",
+            "name": "iOS 12.5.6 (16H71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.5 (16H62)",
+            "alternate": false,
+            "date": "2022-11-29T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -109,11 +119,21 @@
     ],
     "iPadOS Legacy": [
         {
-            "name": "iOS 12.5.5 (16H62)",
+            "name": "iOS 12.5.6 (16H71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 12.5.5 (16H62)",
+            "alternate": false,
+            "date": "2022-11-29T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -203,5 +223,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-08-31T17:02:26.804963+00:00"
+    "_date": "2022-08-31T17:47:08.856539+00:00"
 }
