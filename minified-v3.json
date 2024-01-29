@@ -399,11 +399,21 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Big Sur 11.7.3 (20G1116)",
+            "name": "macOS Big Sur 11.7.4 (20G1120)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.7.3 (20G1116)",
+            "alternate": false,
+            "date": "2023-05-16T00:00:00+00:00",
+            "delay": 23,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -479,5 +489,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-02-15T21:10:50.715322+00:00"
+    "_date": "2023-02-15T21:43:32.417994+00:00"
 }
