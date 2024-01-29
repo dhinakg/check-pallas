@@ -169,7 +169,7 @@
     ],
     "iPadOS Legacy": [
         {
-            "name": "iOS 12.5.6 (16H71)",
+            "name": "iPadOS Legacy 12.5.6 (16H71)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -293,5 +293,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-09-12T17:24:08.187926+00:00"
+    "_date": "2022-09-12T17:51:52.089488+00:00"
 }
