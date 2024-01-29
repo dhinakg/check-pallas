@@ -39,16 +39,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.1 (20B82)",
-            "alternate": false,
-            "date": "2023-02-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (all other devices supporting iOS 16)": [
@@ -101,16 +91,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.1 (20B82)",
-            "alternate": false,
-            "date": "2023-02-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
@@ -197,16 +177,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.1 (20B82)",
-            "alternate": false,
-            "date": "2023-02-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS": [
@@ -259,16 +229,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.1 (20B82)",
-            "alternate": false,
-            "date": "2023-02-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v2 (devices supporting up to iOS 15)": [
@@ -457,17 +417,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Ventura 13.0 (22A380)",
-            "alternate": false,
-            "date": "2023-02-07T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-02-07T17:41:49.614787+00:00"
+    "_date": "2023-02-07T18:10:23.850769+00:00"
 }
