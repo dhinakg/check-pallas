@@ -1,51 +1,11 @@
 {
-    "iOS (iPhone 12 series/13 series only)": [
+    "iOS (iPhone 14 series)": [
         {
             "name": "iOS 16.0 (20A362)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.7 (19H12)",
-            "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": false,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.6.1 (19G82)",
-            "alternate": false,
-            "date": "2022-12-11T00:00:00+00:00",
-            "delay": 26,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.6 (19G71)",
-            "alternate": false,
-            "date": "2022-11-15T00:00:00+00:00",
-            "delay": 54,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 15.5 (19F77)",
-            "alternate": false,
-            "date": "2022-10-18T00:00:00+00:00",
-            "delay": 90,
-            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -293,5 +253,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-09-12T21:08:51.059426+00:00"
+    "_date": "2022-09-12T21:19:36.485778+00:00"
 }
