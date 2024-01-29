@@ -361,7 +361,7 @@
             "delay": 46,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -395,5 +395,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-10-28T22:49:00.817060+00:00"
+    "_date": "2022-10-28T23:09:57.728980+00:00"
 }
