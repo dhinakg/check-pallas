@@ -1,13 +1,13 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS (iPhone 14 series) 16.2 (20C65)",
+            "name": "iOS 16.2 (20C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -47,13 +47,13 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         }
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS (all other non-legacy devices) 16.2 (20C65)",
+            "name": "iOS 16.2 (20C65)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -69,7 +69,7 @@
             "delay": 46,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -99,7 +99,7 @@
             "delay": 83,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -125,7 +125,7 @@
     ],
     "iOS Legacy v2": [
         {
-            "name": "iOS Legacy v2 15.7.2 (19H218)",
+            "name": "iOS 15.7.2 (19H218)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -375,5 +375,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-15T03:12:33.936537+00:00"
+    "_date": "2023-01-15T03:13:51.690112+00:00"
 }
