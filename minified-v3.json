@@ -1,47 +1,5 @@
 {
-    "iOS (iPhone 14 series)": [
-        {
-            "name": "iOS 16.5 (20F66)",
-            "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 16.4.1 (20E252)",
-            "alternate": false,
-            "date": "2023-08-16T00:00:00+00:00",
-            "delay": 41,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 16.4 (20E247)",
-            "alternate": false,
-            "date": "2023-07-06T00:00:00+00:00",
-            "delay": 52,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 16.3.1 (20D67)",
-            "alternate": false,
-            "date": "2023-06-25T00:00:00+00:00",
-            "delay": 90,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "iOS (all other devices supporting iOS 16)": [
+    "iOS (devices supporting iOS 16)": [
         {
             "name": "iOS 16.5 (20F66)",
             "alternate": false,
@@ -137,49 +95,7 @@
             "mdm_only": false
         }
     ],
-    "iPadOS (October 2022 models)": [
-        {
-            "name": "iPadOS 16.5 (20F66)",
-            "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.4.1 (20E252)",
-            "alternate": false,
-            "date": "2023-08-16T00:00:00+00:00",
-            "delay": 41,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.4 (20E246)",
-            "alternate": false,
-            "date": "2023-07-06T00:00:00+00:00",
-            "delay": 52,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.3.1 (20D67)",
-            "alternate": false,
-            "date": "2023-06-25T00:00:00+00:00",
-            "delay": 90,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        }
-    ],
-    "iPadOS": [
+    "iPadOS (devices supporting iPadOS 16)": [
         {
             "name": "iPadOS 16.5 (20F66)",
             "alternate": false,
@@ -439,5 +355,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-05-18T19:06:36.307538+00:00"
+    "_date": "2023-05-18T19:06:47.779563+00:00"
 }
