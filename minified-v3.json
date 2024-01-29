@@ -14,7 +14,7 @@
             "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 32,
+            "delay": 33,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 32,
+            "delay": 33,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -90,7 +90,7 @@
             "name": "iPadOS 15.6 (19G71)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 32,
+            "delay": 33,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -134,7 +134,7 @@
             "name": "tvOS 15.5.1 (19L580)",
             "alternate": false,
             "date": "2022-10-18T00:00:00+00:00",
-            "delay": 88,
+            "delay": 89,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -176,7 +176,7 @@
             "name": "macOS Monterey 12.5 (21G72)",
             "alternate": false,
             "date": "2022-11-15T00:00:00+00:00",
-            "delay": 32,
+            "delay": 33,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -196,7 +196,7 @@
             "name": "macOS Big Sur 11.6.7 (20G630)",
             "alternate": false,
             "date": "2022-10-18T00:00:00+00:00",
-            "delay": 73,
+            "delay": 74,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -213,5 +213,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-08-21T23:58:05.858025+00:00"
+    "_date": "2022-08-22T01:44:34.311615+00:00"
 }
