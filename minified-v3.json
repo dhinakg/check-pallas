@@ -14,7 +14,7 @@
             "name": "iOS 16.5 (20F66)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 15.7.6 (19H349)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -90,7 +90,7 @@
             "name": "iPadOS 16.5 (20F66)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -122,7 +122,7 @@
             "name": "iPadOS 15.7.6 (19H349)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -166,7 +166,7 @@
             "name": "tvOS 16.4.1 (20L498)",
             "alternate": false,
             "date": "2023-08-16T00:00:00+00:00",
-            "delay": 89,
+            "delay": 90,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -176,11 +176,11 @@
             "name": "tvOS 16.4 (20L497)",
             "alternate": false,
             "date": "2023-07-11T00:00:00+00:00",
-            "delay": 90,
+            "delay": -1,
             "latest": false,
-            "imminent": false,
+            "imminent": true,
             "mdm_available": true,
-            "mdm_only": false
+            "mdm_only": true
         }
     ],
     "macOS": [
@@ -218,7 +218,7 @@
             "name": "macOS Ventura 13.4 (22F66)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -228,7 +228,7 @@
             "name": "macOS Monterey 12.6.6 (21G646)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -238,7 +238,7 @@
             "name": "macOS Big Sur 11.7.7 (20G1345)",
             "alternate": false,
             "date": "2023-09-19T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -275,5 +275,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-07-10T23:50:18.796839+00:00"
+    "_date": "2023-07-11T00:43:16.456080+00:00"
 }
