@@ -362,7 +362,7 @@
             "name": "tvOS 16.6 (20M73)",
             "alternate": false,
             "date": "2023-12-17T00:00:00+00:00",
-            "delay": 66,
+            "delay": 68,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -511,5 +511,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-09-30T07:43:20.723550+00:00"
+    "_date": "2023-09-30T08:09:27.679392+00:00"
 }
