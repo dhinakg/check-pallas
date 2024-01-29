@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.2 (20C65)",
+            "name": "iOS 16.3 (20D47)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.2 (20C65)",
+            "alternate": false,
+            "date": "2023-04-23T00:00:00+00:00",
+            "delay": 41,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,11 +53,21 @@
     ],
     "iOS (all other non-legacy devices)": [
         {
-            "name": "iOS 16.2 (20C65)",
+            "name": "iOS 16.3 (20D47)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.2 (20C65)",
+            "alternate": false,
+            "date": "2023-04-23T00:00:00+00:00",
+            "delay": 41,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -385,5 +405,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-23T18:11:57.290605+00:00"
+    "_date": "2023-01-23T18:26:57.645335+00:00"
 }
