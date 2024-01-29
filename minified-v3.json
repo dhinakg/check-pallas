@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.3 (20D47)",
+            "name": "iOS 16.3.1 (20D67)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.3 (20D47)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,11 +53,21 @@
     ],
     "iOS (all other devices supporting iOS 16)": [
         {
-            "name": "iOS 16.3 (20D47)",
+            "name": "iOS 16.3.1 (20D67)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.3 (20D47)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -149,11 +169,21 @@
     ],
     "iPadOS (October 2022 models)": [
         {
-            "name": "iPadOS 16.3 (20D47)",
+            "name": "iPadOS 16.3.1 (20D67)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.3 (20D47)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -181,11 +211,21 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 16.3 (20D47)",
+            "name": "iPadOS 16.3.1 (20D67)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.3 (20D47)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -287,11 +327,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 16.3.1 (20K661)",
+            "name": "tvOS 16.3.2 (20K672)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 16.3.1 (20K661)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 7,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -329,13 +379,13 @@
     ],
     "macOS": [
         {
-            "name": "macOS Ventura 13.2 (22D49)",
+            "name": "macOS Ventura 13.2.1 (22D68)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -354,6 +404,16 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.2 (22D49)",
+            "alternate": false,
+            "date": "2023-05-14T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -419,5 +479,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-02-13T17:42:02.655987+00:00"
+    "_date": "2023-02-13T18:10:13.471821+00:00"
 }
