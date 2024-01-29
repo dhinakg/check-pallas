@@ -171,16 +171,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.0.1 (21A340)",
-            "alternate": false,
-            "date": "2023-12-25T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -359,16 +349,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17.0.1 (21A340)",
-            "alternate": false,
-            "date": "2023-12-25T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -621,5 +601,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-12-25T19:07:44.494958+00:00"
+    "_date": "2023-12-25T19:42:27.229493+00:00"
 }
