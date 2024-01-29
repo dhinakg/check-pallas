@@ -1,0 +1,24 @@
+{
+    "iOS": {
+        "16": {
+            "16.4.1": {
+                "Latest available": null
+            }
+        }
+    },
+    "iPadOS": {
+        "16": {
+            "16.4.1": {
+                "Latest available": null
+            }
+        }
+    },
+    "macOS": {
+        "13": {
+            "13.3.1": {
+                "Latest available": null
+            }
+        }
+    },
+    "tvOS": {}
+}
