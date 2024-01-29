@@ -181,16 +181,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.6.1 (20G81)",
-            "alternate": false,
-            "date": "2023-12-17T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -399,16 +389,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.6.1 (20G81)",
-            "alternate": false,
-            "date": "2023-12-17T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -527,16 +507,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 16.6 (20M73)",
-            "alternate": false,
-            "date": "2023-12-17T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -681,5 +651,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-12-17T17:07:29.626645+00:00"
+    "_date": "2023-12-17T17:43:48.520454+00:00"
 }
