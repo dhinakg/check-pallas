@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.0 (20A362)",
+            "name": "iOS 16.0.1 (20A371)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.0 (20A362)",
+            "alternate": false,
+            "date": "2022-12-13T00:00:00+00:00",
+            "delay": 2,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -253,5 +263,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-09-14T22:09:16.561039+00:00"
+    "_date": "2022-09-14T22:49:22.131031+00:00"
 }
