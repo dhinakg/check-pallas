@@ -347,11 +347,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 16.4 (20L497)",
+            "name": "tvOS 16.4.1 (20L498)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 16.4 (20L497)",
+            "alternate": false,
+            "date": "2023-07-11T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -539,5 +549,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-04-12T17:06:33.488116+00:00"
+    "_date": "2023-04-12T17:43:36.663105+00:00"
 }
