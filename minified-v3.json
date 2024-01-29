@@ -325,16 +325,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 16.1 (20K71)",
-            "alternate": false,
-            "date": "2023-03-13T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -417,37 +407,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Ventura 13.0.1 (22A400)",
-            "alternate": false,
-            "date": "2023-03-13T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Monterey 12.6.1 (21G217)",
-            "alternate": false,
-            "date": "2023-03-13T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Big Sur 11.7.1 (20G918)",
-            "alternate": false,
-            "date": "2023-03-13T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-03-13T17:43:04.602977+00:00"
+    "_date": "2023-03-13T18:08:35.458010+00:00"
 }
