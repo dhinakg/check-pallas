@@ -7,7 +7,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -59,7 +59,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -123,7 +123,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -175,7 +175,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -281,7 +281,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -291,7 +291,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -301,7 +301,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -425,5 +425,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-06-21T18:42:45.622721+00:00"
+    "_date": "2023-06-21T19:06:02.979026+00:00"
 }
