@@ -11,7 +11,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1.2 (20B110)",
+            "name": "iOS (iPhone 14 series) 16.1.2 (20B110)",
             "alternate": false,
             "date": "2023-03-13T00:00:00+00:00",
             "delay": 32,
@@ -73,7 +73,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 16.1.2 (20B110)",
+            "name": "iOS (all other non-legacy devices) 16.1.2 (20B110)",
             "alternate": false,
             "date": "2023-03-13T00:00:00+00:00",
             "delay": 32,
@@ -395,5 +395,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-01-01T23:07:21.603758+00:00"
+    "_date": "2023-01-01T23:42:54.458736+00:00"
 }
