@@ -43,11 +43,21 @@
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
         {
-            "name": "iOS 15.7.8 (19H364)",
+            "name": "iOS 15.7.9 (19H365)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.7.8 (19H364)",
+            "alternate": false,
+            "date": "2023-12-10T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -129,11 +139,21 @@
     ],
     "iPadOS Legacy v2 (devices supporting up to iOS 15)": [
         {
-            "name": "iPadOS 15.7.8 (19H364)",
+            "name": "iPadOS 15.7.9 (19H365)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.7.8 (19H364)",
+            "alternate": false,
+            "date": "2023-12-10T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -205,7 +225,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Monterey 12.6.8 (21G725)",
+            "name": "macOS Monterey 12.6.9 (21G726)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -215,11 +235,31 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Big Sur 11.7.9 (20G1426)",
+            "name": "macOS Big Sur 11.7.10 (20G1427)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.6.8 (21G725)",
+            "alternate": false,
+            "date": "2023-12-10T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.7.9 (20G1426)",
+            "alternate": false,
+            "date": "2023-12-10T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -305,5 +345,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-09-11T17:06:32.298180+00:00"
+    "_date": "2023-09-11T17:41:56.067517+00:00"
 }
