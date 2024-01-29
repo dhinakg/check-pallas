@@ -639,17 +639,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Ventura 13.5 (22G74)",
-            "alternate": false,
-            "date": "2023-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-11-15T17:43:25.536397+00:00"
+    "_date": "2023-11-15T18:10:53.942369+00:00"
 }
