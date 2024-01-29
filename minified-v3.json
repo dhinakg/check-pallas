@@ -1,11 +1,21 @@
 {
     "September 2023 iPhones": [
         {
-            "name": "iOS 17.1.1 (21B91)",
+            "name": "iOS 17.1.2 (21B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.1.1 (21B91)",
+            "alternate": false,
+            "date": "2024-02-28T00:00:00+00:00",
+            "delay": 23,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,13 +53,13 @@
     ],
     "iOS (devices supporting iOS 17)": [
         {
-            "name": "iOS 17.1.1 (21B91)",
+            "name": "iOS 17.1.2 (21B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -60,6 +70,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.1.1 (21B91)",
+            "alternate": false,
+            "date": "2024-02-28T00:00:00+00:00",
+            "delay": 23,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -261,13 +281,13 @@
     ],
     "iPadOS (devices supporting iPadOS 17)": [
         {
-            "name": "iPadOS 17.1.1 (21B91)",
+            "name": "iPadOS 17.1.2 (21B101)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -278,6 +298,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.1.1 (21B91)",
+            "alternate": false,
+            "date": "2024-02-28T00:00:00+00:00",
+            "delay": 23,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -511,13 +541,13 @@
     ],
     "macOS": [
         {
-            "name": "macOS Sonoma 14.1.1 (23B81)",
+            "name": "macOS Sonoma 14.1.2 (23B92)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -546,6 +576,16 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sonoma 14.1.1 (23B81)",
+            "alternate": false,
+            "date": "2024-02-28T00:00:00+00:00",
+            "delay": 23,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -641,5 +681,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-11-30T17:42:17.415273+00:00"
+    "_date": "2023-11-30T18:11:10.032975+00:00"
 }
