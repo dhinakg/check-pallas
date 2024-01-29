@@ -39,16 +39,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.0.3 (20A392)",
-            "alternate": false,
-            "date": "2023-01-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (all other non-legacy devices)": [
@@ -111,16 +101,6 @@
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.0.3 (20A392)",
-            "alternate": false,
-            "date": "2023-01-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2": [
@@ -261,16 +241,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 16.0 (20J373)",
-            "alternate": false,
-            "date": "2023-01-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -343,27 +313,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Monterey 12.6 (21G115)",
-            "alternate": false,
-            "date": "2023-01-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Big Sur 11.7 (20G817)",
-            "alternate": false,
-            "date": "2023-01-22T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2023-01-22T17:06:26.759967+00:00"
+    "_date": "2023-01-22T17:43:23.754240+00:00"
 }
