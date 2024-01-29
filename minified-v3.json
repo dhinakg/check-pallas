@@ -283,7 +283,7 @@
             "mdm_only": false
         },
         {
-            "name": "iPadOS Legacy v2 (devices supporting up to iOS 15) 15.7.2 (19H218)",
+            "name": "iPadOS 15.7.2 (19H218)",
             "alternate": false,
             "date": "2023-04-23T00:00:00+00:00",
             "delay": 56,
@@ -315,7 +315,7 @@
             "mdm_only": false
         },
         {
-            "name": "iPadOS Legacy (devices supporting up to iOS 12) 12.5.6 (16H71)",
+            "name": "iPadOS 12.5.6 (16H71)",
             "alternate": false,
             "date": "2023-04-23T00:00:00+00:00",
             "delay": 90,
@@ -469,5 +469,5 @@
             "mdm_only": true
         }
     ],
-    "_date": "2023-02-07T09:27:28.602384+00:00"
+    "_date": "2023-02-07T09:40:48.438721+00:00"
 }
