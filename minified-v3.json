@@ -1,11 +1,21 @@
 {
     "iOS (iPhone 14 series)": [
         {
-            "name": "iOS 16.3.1 (20D67)",
+            "name": "iOS 16.4 (20E247)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.3.1 (20D67)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -33,11 +43,21 @@
     ],
     "iOS (all other devices supporting iOS 16)": [
         {
-            "name": "iOS 16.3.1 (20D67)",
+            "name": "iOS 16.4 (20E247)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.3.1 (20D67)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -65,11 +85,21 @@
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
         {
-            "name": "iOS 15.7.3 (19H307)",
+            "name": "iOS 15.7.4 (19H321)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.7.3 (19H307)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 63,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -109,11 +139,21 @@
     ],
     "iPadOS (October 2022 models)": [
         {
-            "name": "iPadOS 16.3.1 (20D67)",
+            "name": "iPadOS 16.4 (20E246)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.3.1 (20D67)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -141,11 +181,21 @@
     ],
     "iPadOS": [
         {
-            "name": "iPadOS 16.3.1 (20D67)",
+            "name": "iPadOS 16.4 (20E246)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.3.1 (20D67)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -183,11 +233,21 @@
     ],
     "iPadOS Legacy v2 (devices supporting up to iOS 15)": [
         {
-            "name": "iPadOS 15.7.3 (19H307)",
+            "name": "iPadOS 15.7.4 (19H321)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.7.3 (19H307)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 63,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -227,11 +287,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 16.3.2 (20K672)",
+            "name": "tvOS 16.4 (20L497)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 16.3.2 (20K672)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -269,11 +339,41 @@
     ],
     "macOS": [
         {
-            "name": "macOS Ventura 13.2.1 (22D68)",
+            "name": "macOS Ventura 13.3 (22E252)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.6.4 (21G526)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.7.5 (20G1225)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.2.1 (22D68)",
+            "alternate": false,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -281,9 +381,9 @@
         {
             "name": "macOS Monterey 12.6.3 (21G419)",
             "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 63,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -291,9 +391,9 @@
         {
             "name": "macOS Big Sur 11.7.4 (20G1120)",
             "alternate": false,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2023-06-25T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -349,5 +449,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-03-27T16:46:10.454007+00:00"
+    "_date": "2023-03-27T17:06:39.093146+00:00"
 }
