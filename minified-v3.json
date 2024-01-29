@@ -362,7 +362,7 @@
             "name": "tvOS 17.2 (21K365)",
             "alternate": false,
             "date": "2024-04-21T00:00:00+00:00",
-            "delay": 47,
+            "delay": 45,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -511,5 +511,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-01-27T23:08:35.734604+00:00"
+    "_date": "2024-01-27T23:42:54.054303+00:00"
 }
