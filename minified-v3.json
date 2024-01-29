@@ -171,16 +171,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 16.4 (20L497)",
-            "alternate": false,
-            "date": "2023-07-11T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -275,5 +265,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2023-07-11T17:06:36.052451+00:00"
+    "_date": "2023-07-11T17:43:39.709611+00:00"
 }
