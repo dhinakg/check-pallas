@@ -73,6 +73,68 @@
             "mdm_only": false
         }
     ],
+    "iOS Legacy v2": [
+        {
+            "name": "iOS 16.0 (20A362)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.7 (19H12)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.7 (19H12)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.6.1 (19G82)",
+            "alternate": false,
+            "date": "2022-12-11T00:00:00+00:00",
+            "delay": 33,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.6 (19G71)",
+            "alternate": false,
+            "date": "2022-11-15T00:00:00+00:00",
+            "delay": 61,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.5 (19F77)",
+            "alternate": false,
+            "date": "2022-10-18T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
     "iOS Legacy": [
         {
             "name": "iOS 12.5.6 (16H71)",
@@ -263,5 +325,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2022-09-19T21:08:19.797694+00:00"
+    "_date": "2022-09-19T21:41:10.922593+00:00"
 }
