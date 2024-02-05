@@ -49,16 +49,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.1 (21B80)",
-            "alternate": false,
-            "date": "2024-02-05T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (devices supporting iOS 17)": [
@@ -121,16 +111,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.1 (21B74)",
-            "alternate": false,
-            "date": "2024-02-05T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -259,16 +239,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17.1 (21B74)",
-            "alternate": false,
-            "date": "2024-02-05T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -499,17 +469,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sonoma 14.1 (23B74)",
-            "alternate": false,
-            "date": "2024-02-05T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2024-02-05T21:17:34.421929+00:00"
+    "_date": "2024-02-05T21:50:11.987357+00:00"
 }
