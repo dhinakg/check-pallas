@@ -1,11 +1,21 @@
 {
     "September 2023 iPhones": [
         {
-            "name": "iOS 17.3.1 (21D61)",
+            "name": "iOS 17.4 (21E219)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.3.1 (21D61)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -53,11 +63,21 @@
     ],
     "iOS (devices supporting iOS 17)": [
         {
-            "name": "iOS 17.3.1 (21D61)",
+            "name": "iOS 17.4 (21E219)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.3.1 (21D61)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -115,11 +135,21 @@
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
         {
-            "name": "iOS 16.7.5 (20H307)",
+            "name": "iOS 16.7.6 (20H320)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.7.5 (20H307)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -157,11 +187,21 @@
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
         {
-            "name": "iOS 15.8.1 (19H380)",
+            "name": "iOS 15.8.2 (19H384)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.8.1 (19H380)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -191,11 +231,21 @@
     ],
     "iPadOS (devices supporting iPadOS 17)": [
         {
-            "name": "iPadOS 17.3.1 (21D61)",
+            "name": "iPadOS 17.4 (21E219)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.3.1 (21D61)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -243,11 +293,21 @@
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
         {
-            "name": "iPadOS 16.7.5 (20H307)",
+            "name": "iPadOS 16.7.6 (20H320)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.7.5 (20H307)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -285,11 +345,21 @@
     ],
     "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": [
         {
-            "name": "iPadOS 15.8.1 (19H380)",
+            "name": "iPadOS 15.8.2 (19H384)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.8.1 (19H380)",
+            "alternate": false,
+            "date": "2024-06-03T00:00:00+00:00",
+            "delay": 43,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -471,5 +541,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-03-05T17:47:19.085744+00:00"
+    "_date": "2024-03-05T18:17:52.723602+00:00"
 }
