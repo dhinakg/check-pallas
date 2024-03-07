@@ -395,7 +395,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -437,7 +437,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -447,7 +447,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -457,7 +457,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -581,5 +581,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-03-07T18:17:53.445112+00:00"
+    "_date": "2024-03-07T18:47:03.735925+00:00"
 }
