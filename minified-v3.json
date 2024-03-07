@@ -389,11 +389,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 17.3 (21K646)",
+            "name": "tvOS 17.4 (21L227)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 17.3 (21K646)",
+            "alternate": false,
+            "date": "2024-06-05T00:00:00+00:00",
+            "delay": 45,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -421,33 +431,33 @@
     ],
     "macOS": [
         {
-            "name": "macOS Sonoma 14.3.1 (23D60)",
+            "name": "macOS Sonoma 14.4 (23E214)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
-            "name": "macOS Ventura 13.6.4 (22G513)",
+            "name": "macOS Ventura 13.6.5 (22G621)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
-            "name": "macOS Monterey 12.7.3 (21H1015)",
+            "name": "macOS Monterey 12.7.4 (21H1123)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -456,6 +466,36 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sonoma 14.3.1 (23D60)",
+            "alternate": false,
+            "date": "2024-06-05T00:00:00+00:00",
+            "delay": 28,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.6.4 (22G513)",
+            "alternate": false,
+            "date": "2024-06-05T00:00:00+00:00",
+            "delay": 45,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.7.3 (21H1015)",
+            "alternate": false,
+            "date": "2024-06-05T00:00:00+00:00",
+            "delay": 45,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -541,5 +581,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-03-07T17:46:57.616516+00:00"
+    "_date": "2024-03-07T18:17:53.445112+00:00"
 }
