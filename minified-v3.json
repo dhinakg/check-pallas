@@ -13,8 +13,8 @@
         {
             "name": "iOS 17.3.1 (21D61)",
             "alternate": false,
-            "date": "2024-06-03T00:00:00+00:00",
-            "delay": 35,
+            "date": "2024-06-04T00:00:00+00:00",
+            "delay": 34,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -23,8 +23,8 @@
         {
             "name": "iOS 17.3 (21D50)",
             "alternate": false,
-            "date": "2024-05-08T00:00:00+00:00",
-            "delay": 52,
+            "date": "2024-05-09T00:00:00+00:00",
+            "delay": 51,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -33,7 +33,7 @@
         {
             "name": "iOS 17.2.1 (21C66)",
             "alternate": false,
-            "date": "2024-04-21T00:00:00+00:00",
+            "date": "2024-04-22T00:00:00+00:00",
             "delay": 86,
             "latest": false,
             "imminent": false,
@@ -471,5 +471,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-03-14T00:21:06.853645+00:00"
+    "_date": "2024-03-14T00:35:01.369727+00:00"
 }
