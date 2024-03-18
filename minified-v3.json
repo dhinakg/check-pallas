@@ -39,16 +39,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.2 (21C62)",
-            "alternate": false,
-            "date": "2024-03-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (devices supporting iOS 17)": [
@@ -91,16 +81,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.2 (21C62)",
-            "alternate": false,
-            "date": "2024-03-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -133,16 +113,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.7.3 (20H232)",
-            "alternate": false,
-            "date": "2024-03-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
@@ -261,16 +231,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.7.3 (20H232)",
-            "alternate": false,
-            "date": "2024-03-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": [
@@ -459,17 +419,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sonoma 14.2 (23C64)",
-            "alternate": false,
-            "date": "2024-03-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2024-03-18T18:06:14.434226+00:00"
+    "_date": "2024-03-18T18:44:49.609434+00:00"
 }
