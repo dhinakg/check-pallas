@@ -185,7 +185,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         }
     ],
@@ -491,5 +491,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-04-03T19:44:28.267534+00:00"
+    "_date": "2024-04-03T20:24:15.588448+00:00"
 }
