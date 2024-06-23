@@ -14,7 +14,7 @@
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 40,
+            "delay": 41,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 40,
+            "delay": 41,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -124,7 +124,7 @@
             "name": "iPadOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 40,
+            "delay": 41,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -202,7 +202,7 @@
             "name": "tvOS 17.5 (21L569)",
             "alternate": false,
             "date": "2024-08-19T00:00:00+00:00",
-            "delay": 40,
+            "delay": 41,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -264,7 +264,7 @@
             "name": "macOS Sonoma 14.4.1 (23E224)",
             "alternate": false,
             "date": "2024-08-11T00:00:00+00:00",
-            "delay": 89,
+            "delay": 90,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -274,7 +274,7 @@
             "name": "macOS Ventura 13.6.6 (22G630)",
             "alternate": false,
             "date": "2024-08-11T00:00:00+00:00",
-            "delay": 89,
+            "delay": 90,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -294,22 +294,22 @@
             "name": "macOS Sonoma 14.4 (23E214)",
             "alternate": false,
             "date": "2024-06-23T00:00:00+00:00",
-            "delay": 90,
+            "delay": -1,
             "latest": false,
-            "imminent": false,
+            "imminent": true,
             "mdm_available": true,
-            "mdm_only": false
+            "mdm_only": true
         },
         {
             "name": "macOS Ventura 13.6.5 (22G621)",
             "alternate": false,
             "date": "2024-06-23T00:00:00+00:00",
-            "delay": 90,
+            "delay": -1,
             "latest": false,
-            "imminent": false,
+            "imminent": true,
             "mdm_available": true,
-            "mdm_only": false
+            "mdm_only": true
         }
     ],
-    "_date": "2024-06-22T23:44:46.641769+00:00"
+    "_date": "2024-06-23T00:05:07.780238+00:00"
 }
