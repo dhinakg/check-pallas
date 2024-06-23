@@ -289,27 +289,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sonoma 14.4 (23E214)",
-            "alternate": false,
-            "date": "2024-06-23T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Ventura 13.6.5 (22G621)",
-            "alternate": false,
-            "date": "2024-06-23T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2024-06-23T17:05:21.156980+00:00"
+    "_date": "2024-06-23T17:43:53.668450+00:00"
 }
