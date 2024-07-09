@@ -7,7 +7,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -17,7 +17,7 @@
             "delay": 57,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -59,7 +59,7 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         }
     ],
@@ -291,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-09T19:22:04.882372+00:00"
+    "_date": "2024-07-09T19:45:10.022652+00:00"
 }
