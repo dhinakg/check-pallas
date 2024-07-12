@@ -13,7 +13,7 @@
         {
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
-            "date": "2024-08-18T00:00:00+00:00",
+            "date": "2024-08-19T00:00:00+00:00",
             "delay": 59,
             "latest": false,
             "imminent": false,
@@ -23,7 +23,7 @@
         {
             "name": "iOS 17.4.1 (21E236)",
             "alternate": false,
-            "date": "2024-08-11T00:00:00+00:00",
+            "date": "2024-08-12T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -45,7 +45,7 @@
         {
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
-            "date": "2024-08-18T00:00:00+00:00",
+            "date": "2024-08-19T00:00:00+00:00",
             "delay": 59,
             "latest": false,
             "imminent": false,
@@ -55,7 +55,7 @@
         {
             "name": "iOS 17.4.1 (21E236)",
             "alternate": false,
-            "date": "2024-08-11T00:00:00+00:00",
+            "date": "2024-08-12T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -77,7 +77,7 @@
         {
             "name": "iOS 16.7.7 (20H330)",
             "alternate": false,
-            "date": "2024-08-11T00:00:00+00:00",
+            "date": "2024-08-12T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -124,7 +124,7 @@
             "name": "iPadOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 59,
+            "delay": 60,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -202,7 +202,7 @@
             "name": "tvOS 17.5 (21L569)",
             "alternate": false,
             "date": "2024-08-19T00:00:00+00:00",
-            "delay": 59,
+            "delay": 60,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -291,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-11T23:46:03.942480+00:00"
+    "_date": "2024-07-12T00:07:01.002110+00:00"
 }
