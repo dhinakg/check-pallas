@@ -13,8 +13,8 @@
         {
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
-            "date": "2024-08-19T00:00:00+00:00",
-            "delay": 71,
+            "date": "2024-08-18T00:00:00+00:00",
+            "delay": 72,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -23,7 +23,7 @@
         {
             "name": "iOS 17.4.1 (21E236)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -45,8 +45,8 @@
         {
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
-            "date": "2024-08-19T00:00:00+00:00",
-            "delay": 71,
+            "date": "2024-08-18T00:00:00+00:00",
+            "delay": 72,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -55,7 +55,7 @@
         {
             "name": "iOS 17.4.1 (21E236)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -77,7 +77,7 @@
         {
             "name": "iOS 16.7.7 (20H330)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -123,8 +123,8 @@
         {
             "name": "iPadOS 17.5 (21F79)",
             "alternate": false,
-            "date": "2024-08-19T00:00:00+00:00",
-            "delay": 71,
+            "date": "2024-08-18T00:00:00+00:00",
+            "delay": 72,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -133,7 +133,7 @@
         {
             "name": "iPadOS 17.4.1 (21E236)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -155,7 +155,7 @@
         {
             "name": "iPadOS 16.7.7 (20H330)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -201,8 +201,8 @@
         {
             "name": "tvOS 17.5 (21L569)",
             "alternate": false,
-            "date": "2024-08-20T00:00:00+00:00",
-            "delay": 71,
+            "date": "2024-08-19T00:00:00+00:00",
+            "delay": 72,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -211,7 +211,7 @@
         {
             "name": "tvOS 17.4 (21L227)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -263,7 +263,7 @@
         {
             "name": "macOS Sonoma 14.4.1 (23E224)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -273,7 +273,7 @@
         {
             "name": "macOS Ventura 13.6.6 (22G630)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -283,7 +283,7 @@
         {
             "name": "macOS Monterey 12.7.4 (21H1123)",
             "alternate": false,
-            "date": "2024-08-12T00:00:00+00:00",
+            "date": "2024-08-11T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -291,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-24T00:00:24.529323+00:00"
+    "_date": "2024-07-24T00:11:41.603751+00:00"
 }
