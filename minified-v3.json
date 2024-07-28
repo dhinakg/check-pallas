@@ -14,7 +14,7 @@
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -124,7 +124,7 @@
             "name": "iPadOS 17.5 (21F79)",
             "alternate": false,
             "date": "2024-08-18T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -202,7 +202,7 @@
             "name": "tvOS 17.5 (21L569)",
             "alternate": false,
             "date": "2024-08-19T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -291,5 +291,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-27T23:44:07.379965+00:00"
+    "_date": "2024-07-28T00:12:02.255101+00:00"
 }
