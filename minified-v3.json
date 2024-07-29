@@ -165,11 +165,21 @@
     ],
     "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": [
         {
-            "name": "iPadOS 15.8.2 (19H384)",
+            "name": "iPadOS 15.8.3 (19H386)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 15.8.2 (19H384)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -221,33 +231,33 @@
     ],
     "macOS": [
         {
-            "name": "macOS Sonoma 14.5 (23F79)",
+            "name": "macOS Sonoma 14.6 (23G80)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
-            "name": "macOS Ventura 13.6.7 (22G720)",
+            "name": "macOS Ventura 13.6.8 (22G820)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
-            "name": "macOS Monterey 12.7.5 (21H1222)",
+            "name": "macOS Monterey 12.7.6 (21H1320)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -256,6 +266,36 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sonoma 14.5 (23F79)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 77,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.6.7 (22G720)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 77,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Monterey 12.7.5 (21H1222)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 77,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -291,5 +331,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-29T20:02:27.267653+00:00"
+    "_date": "2024-07-29T20:17:14.152333+00:00"
 }
