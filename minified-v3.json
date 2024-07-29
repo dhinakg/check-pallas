@@ -1,11 +1,21 @@
 {
     "September 2023 iPhones": [
         {
-            "name": "iOS 17.5.1 (21F90)",
+            "name": "iOS 17.6 (21G80)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.5.1 (21F90)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 70,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -33,11 +43,21 @@
     ],
     "iOS (devices supporting iOS 17)": [
         {
-            "name": "iOS 17.5.1 (21F90)",
+            "name": "iOS 17.6 (21G80)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.5.1 (21F90)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 70,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -71,7 +91,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -103,7 +123,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -137,7 +157,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -179,7 +199,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -211,7 +231,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -245,7 +265,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -287,7 +307,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -297,7 +317,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -307,7 +327,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -381,5 +401,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-29T20:29:01.367827+00:00"
+    "_date": "2024-07-29T20:46:39.935246+00:00"
 }
