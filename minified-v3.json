@@ -65,11 +65,21 @@
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
         {
-            "name": "iOS 16.7.8 (20H343)",
+            "name": "iOS 16.7.9 (20H348)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.7.8 (20H343)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 77,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -87,11 +97,21 @@
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
         {
-            "name": "iOS 15.8.2 (19H384)",
+            "name": "iOS 15.8.3 (19H386)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 15.8.2 (19H384)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -111,11 +131,21 @@
     ],
     "iPadOS (devices supporting iPadOS 17)": [
         {
-            "name": "iPadOS 17.5.1 (21F90)",
+            "name": "iPadOS 17.6 (21G80)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.5.1 (21F90)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 70,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -143,11 +173,21 @@
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
         {
-            "name": "iPadOS 16.7.8 (20H343)",
+            "name": "iPadOS 16.7.9 (20H348)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.7.8 (20H343)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 77,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -199,11 +239,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 17.5.1 (21L580)",
+            "name": "tvOS 17.6 (21M71)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 17.5.1 (21L580)",
+            "alternate": false,
+            "date": "2024-10-27T00:00:00+00:00",
+            "delay": 69,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -331,5 +381,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-07-29T20:17:14.152333+00:00"
+    "_date": "2024-07-29T20:29:01.367827+00:00"
 }
