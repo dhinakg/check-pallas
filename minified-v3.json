@@ -7,7 +7,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -401,5 +401,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-08-01T07:58:21.610285+00:00"
+    "_date": "2024-08-01T08:11:26.933259+00:00"
 }
