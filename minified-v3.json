@@ -29,16 +29,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.5 (21F79)",
-            "alternate": false,
-            "date": "2024-08-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (devices supporting iOS 17)": [
@@ -71,16 +61,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 17.5 (21F79)",
-            "alternate": false,
-            "date": "2024-08-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -179,16 +159,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17.5 (21F79)",
-            "alternate": false,
-            "date": "2024-08-18T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -381,5 +351,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-08-18T17:05:36.930060+00:00"
+    "_date": "2024-08-18T17:44:32.894015+00:00"
 }
