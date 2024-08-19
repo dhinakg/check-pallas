@@ -229,11 +229,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 17.6 (21M71)",
+            "name": "tvOS 17.6.1 (21M80)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 17.6 (21M71)",
+            "alternate": false,
+            "date": "2024-11-17T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -247,16 +257,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 17.5 (21L569)",
-            "alternate": false,
-            "date": "2024-08-19T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -351,5 +351,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-08-19T17:06:02.399632+00:00"
+    "_date": "2024-08-19T17:43:45.587765+00:00"
 }
