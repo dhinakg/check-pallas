@@ -327,7 +327,7 @@
             "delay": 90,
             "latest": false,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -351,5 +351,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-08-29T04:49:06.415138+00:00"
+    "_date": "2024-08-29T05:11:10.579226+00:00"
 }
