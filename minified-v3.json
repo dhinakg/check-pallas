@@ -1,11 +1,31 @@
 {
     "September 2023 iPhones": [
         {
-            "name": "iOS 17.6.1 (21G93)",
+            "name": "iOS 18 (22A3354)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.7 (21H16)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.6.1 (21G93)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -33,11 +53,31 @@
     ],
     "iOS (devices supporting iOS 17)": [
         {
-            "name": "iOS 17.6.1 (21G93)",
+            "name": "iOS 18 (22A3354)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.7 (21H16)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 17.6.1 (21G93)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -131,11 +171,31 @@
     ],
     "iPadOS (devices supporting iPadOS 17)": [
         {
-            "name": "iPadOS 17.6.1 (21G93)",
+            "name": "iPadOS 18 (22A3354)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.7 (21H16)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.6.1 (21G93)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -229,11 +289,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 17.6.1 (21M80)",
+            "name": "tvOS 18.0 (22J357)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 17.6.1 (21M80)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 28,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -261,7 +331,7 @@
     ],
     "macOS": [
         {
-            "name": "macOS Sonoma 14.6.1 (23G93)",
+            "name": "macOS Sequoia 15.0 (24A335)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -271,7 +341,17 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Ventura 13.6.9 (22G830)",
+            "name": "macOS Sonoma 14.7 (23H124)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.7 (22H123)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -296,6 +376,26 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sonoma 14.6.1 (23G93)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.6.9 (22G830)",
+            "alternate": false,
+            "date": "2024-12-15T00:00:00+00:00",
+            "delay": 40,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -351,5 +451,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-09-16T17:06:15.463507+00:00"
+    "_date": "2024-09-16T17:45:10.595942+00:00"
 }
