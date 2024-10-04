@@ -112,18 +112,18 @@ oses = {
     #         },
     #     },
     # },
-    "September 2023 iPhones": {
+    "September 2024 iPhones": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
         "devices": {
-            "iPhone 15": {
-                "ProductType": "iPhone15,4",
-                "HWModelStr": "D37AP",
+            "iPhone 16": {
+                "ProductType": "iPhone17,3",
+                "HWModelStr": "D47AP",
             },
         },
     },
-    "iOS (devices supporting iOS 17)": {
+    "iOS (devices supporting iOS 18)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -187,7 +187,22 @@ oses = {
             }
         },
     },
-    "iPadOS (devices supporting iPadOS 17)": {
+    "M4 iPads": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad Pro 11-inch (M4) Wi-Fi": {
+                "ProductType": "iPad16,3",
+                "HWModelStr": "J717AP",
+            },
+            # "iPad (8th gen) WiFi": {
+            #     "ProductType": "iPad11,6",
+            #     "HWModelStr": "J171aAP",
+            # },
+        },
+    },
+    "iPadOS (devices supporting iPadOS 18)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
@@ -200,6 +215,17 @@ oses = {
             #     "ProductType": "iPad11,6",
             #     "HWModelStr": "J171aAP",
             # },
+        },
+    },
+    "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad (6th generation) Wi-Fi": {
+                "ProductType": "iPad7,5",
+                "HWModelStr": "J71bAP",
+            },
         },
     },
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": {
