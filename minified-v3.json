@@ -249,16 +249,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 18 (22A3354)",
-            "alternate": false,
-            "date": "2024-12-17T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS (devices supporting iPadOS 18)": [
@@ -585,5 +575,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2024-12-17T16:06:39.852669+00:00"
+    "_date": "2024-12-17T16:50:02.718428+00:00"
 }
