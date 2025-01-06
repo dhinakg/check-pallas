@@ -1,11 +1,21 @@
 {
     "September 2024 iPhones": [
         {
-            "name": "iOS 18.2 (22C152)",
+            "name": "iOS 18.2.1 (22C161)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.2 (22C152)",
+            "alternate": false,
+            "date": "2025-04-06T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,11 +53,21 @@
     ],
     "iOS (devices supporting iOS 18)": [
         {
-            "name": "iOS 18.2 (22C152)",
+            "name": "iOS 18.2.1 (22C161)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.2 (22C152)",
+            "alternate": false,
+            "date": "2025-04-06T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -151,11 +171,21 @@
     ],
     "M4 iPads": [
         {
-            "name": "iPadOS 18.2 (22C152)",
+            "name": "iPadOS 18.2.1 (22C161)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.2 (22C152)",
+            "alternate": false,
+            "date": "2025-04-06T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -223,11 +253,21 @@
     ],
     "iPadOS (devices supporting iPadOS 18)": [
         {
-            "name": "iPadOS 18.2 (22C152)",
+            "name": "iPadOS 18.2.1 (22C161)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.2 (22C152)",
+            "alternate": false,
+            "date": "2025-04-06T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -525,5 +565,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-01-06T17:44:42.496058+00:00"
+    "_date": "2025-01-06T18:08:00.927358+00:00"
 }
