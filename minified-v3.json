@@ -413,11 +413,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 18.2 (22K155)",
+            "name": "tvOS 18.2.1 (22K160)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 18.2 (22K155)",
+            "alternate": false,
+            "date": "2025-04-16T00:00:00+00:00",
+            "delay": 36,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -565,5 +575,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-01-16T21:44:01.431274+00:00"
+    "_date": "2025-01-16T22:05:18.490845+00:00"
 }
