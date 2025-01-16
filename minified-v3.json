@@ -419,7 +419,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -575,5 +575,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-01-16T22:05:18.490845+00:00"
+    "_date": "2025-01-16T22:45:22.946777+00:00"
 }
