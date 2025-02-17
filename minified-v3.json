@@ -533,17 +533,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sequoia 15.1 (24B83)",
-            "alternate": false,
-            "date": "2025-02-17T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2025-02-17T18:10:33.155127+00:00"
+    "_date": "2025-02-17T18:48:51.264409+00:00"
 }
