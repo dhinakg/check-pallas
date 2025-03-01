@@ -335,7 +335,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         }
     ],
@@ -535,5 +535,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-03-01T09:07:06.613613+00:00"
+    "_date": "2025-03-01T09:44:52.766409+00:00"
 }
