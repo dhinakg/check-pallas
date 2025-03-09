@@ -415,7 +415,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 13.7.4 (22H420)",
+            "name": "macOS Ventura 13.7.4 (22H420)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -455,7 +455,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 14.7.3 (23H417)",
+            "name": "macOS Sonoma 14.7.3 (23H417)",
             "alternate": false,
             "date": "2025-05-11T00:00:00+00:00",
             "delay": 41,
@@ -535,5 +535,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-03-09T03:44:07.030727+00:00"
+    "_date": "2025-03-09T04:05:45.748433+00:00"
 }
