@@ -431,6 +431,16 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
+        },
+        {
+            "name": "tvOS 18.2.1 (22K160)",
+            "alternate": false,
+            "date": "2025-04-27T00:00:00+00:00",
+            "delay": -1,
+            "latest": false,
+            "imminent": true,
+            "mdm_available": true,
+            "mdm_only": true
         }
     ],
     "macOS": [
@@ -595,5 +605,5 @@
             "mdm_only": true
         }
     ],
-    "_date": "2025-04-27T08:07:52.877540+00:00"
+    "_date": "2025-04-27T08:47:25.257622+00:00"
 }
