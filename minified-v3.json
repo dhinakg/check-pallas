@@ -49,16 +49,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 18.2.1 (22C161)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS (devices supporting iOS 18)": [
@@ -111,16 +101,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 18.2.1 (22C161)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -229,16 +209,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 18.2.1 (22C161)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS (devices supporting iPadOS 18)": [
@@ -291,16 +261,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 18.2.1 (22C161)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": [
@@ -333,16 +293,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17.7.3 (21H312)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -431,16 +381,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "tvOS 18.2.1 (22K160)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "macOS": [
@@ -573,37 +513,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sequoia 15.2 (24C101)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Sonoma 14.7.2 (23H311)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Ventura 13.7.2 (22H313)",
-            "alternate": false,
-            "date": "2025-04-27T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2025-04-27T18:07:25.942429+00:00"
+    "_date": "2025-04-27T18:47:58.782053+00:00"
 }
