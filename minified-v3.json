@@ -1,11 +1,21 @@
 {
     "September 2024 iPhones": [
         {
-            "name": "iOS 18.4.1 (22E252)",
+            "name": "iOS 18.5 (22F76)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.4.1 (22E252)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,11 +53,21 @@
     ],
     "iOS (devices supporting iOS 18)": [
         {
-            "name": "iOS 18.4.1 (22E252)",
+            "name": "iOS 18.5 (22F76)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.4.1 (22E252)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -141,11 +161,21 @@
     ],
     "M4 iPads": [
         {
-            "name": "iPadOS 18.4.1 (22E252)",
+            "name": "iPadOS 18.5 (22F76)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.4.1 (22E252)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -183,11 +213,21 @@
     ],
     "iPadOS (devices supporting iPadOS 18)": [
         {
-            "name": "iPadOS 18.4.1 (22E252)",
+            "name": "iPadOS 18.5 (22F76)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.4.1 (22E252)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -225,11 +265,21 @@
     ],
     "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": [
         {
-            "name": "iPadOS 17.7.6 (21H423)",
+            "name": "iPadOS 17.7.7 (21H433)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.7.6 (21H423)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -303,11 +353,21 @@
     ],
     "tvOS": [
         {
-            "name": "tvOS 18.4.1 (22L261)",
+            "name": "tvOS 18.5 (22L572)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 18.4.1 (22L261)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -335,7 +395,7 @@
     ],
     "macOS": [
         {
-            "name": "macOS Sequoia 15.4.1 (24E263)",
+            "name": "macOS Sequoia 15.5 (24F74)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -345,7 +405,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.7.5 (23H527)",
+            "name": "macOS Sonoma 14.7.6 (23H626)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -355,7 +415,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Ventura 13.7.5 (22H527)",
+            "name": "macOS Ventura 13.7.6 (22H625)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -380,6 +440,36 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sequoia 15.4.1 (24E263)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 26,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sonoma 14.7.5 (23H527)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Ventura 13.7.5 (22H527)",
+            "alternate": false,
+            "date": "2025-08-10T00:00:00+00:00",
+            "delay": 42,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -435,5 +525,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-05-12T17:05:42.062215+00:00"
+    "_date": "2025-05-12T17:46:06.072605+00:00"
 }
