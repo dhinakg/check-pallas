@@ -265,11 +265,21 @@
     ],
     "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": [
         {
-            "name": "iPadOS 17.7.6 (21H423)",
+            "name": "iPadOS 17.7.8 (21H440)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 17.7.6 (21H423)",
+            "alternate": false,
+            "date": "2025-08-17T00:00:00+00:00",
+            "delay": 49,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -525,5 +535,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-05-19T17:06:47.107725+00:00"
+    "_date": "2025-05-19T17:45:18.955203+00:00"
 }
