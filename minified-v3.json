@@ -483,17 +483,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Sequoia 15.3.1 (24D70)",
-            "alternate": false,
-            "date": "2025-06-09T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2025-06-09T17:46:37.748749+00:00"
+    "_date": "2025-06-09T18:08:30.310888+00:00"
 }
