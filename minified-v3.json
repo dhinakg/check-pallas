@@ -148,7 +148,7 @@
             "name": "iPadOS 17.7.7 (21H433)",
             "alternate": false,
             "date": "2025-08-14T00:00:00+00:00",
-            "delay": 75,
+            "delay": 76,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -295,5 +295,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-07-26T23:45:44.691969+00:00"
+    "_date": "2025-07-27T00:06:15.408848+00:00"
 }
