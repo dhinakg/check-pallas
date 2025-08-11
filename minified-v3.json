@@ -138,7 +138,7 @@
             "name": "iPadOS 17.7.8 (21H440)",
             "alternate": false,
             "date": "2025-10-27T00:00:00+00:00",
-            "delay": 83,
+            "delay": 84,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -148,7 +148,7 @@
             "name": "iPadOS 17.7.6 (21H423)",
             "alternate": false,
             "date": "2025-08-17T00:00:00+00:00",
-            "delay": 86,
+            "delay": 87,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -305,5 +305,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-08-10T23:46:02.063855+00:00"
+    "_date": "2025-08-11T00:10:19.265395+00:00"
 }
