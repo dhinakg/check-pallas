@@ -173,16 +173,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 17.7.7 (21H433)",
-            "alternate": false,
-            "date": "2025-08-14T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
@@ -325,5 +315,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-08-14T19:45:38.458581+00:00"
+    "_date": "2025-08-14T20:08:33.605879+00:00"
 }
