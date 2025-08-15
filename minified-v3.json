@@ -14,7 +14,7 @@
             "name": "iOS 18.6 (22G86)",
             "alternate": false,
             "date": "2025-11-12T00:00:00+00:00",
-            "delay": 16,
+            "delay": 17,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 18.6 (22G86)",
             "alternate": false,
             "date": "2025-11-12T00:00:00+00:00",
-            "delay": 16,
+            "delay": 17,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -158,7 +158,7 @@
             "name": "iPadOS 17.7.8 (21H440)",
             "alternate": false,
             "date": "2025-10-27T00:00:00+00:00",
-            "delay": 87,
+            "delay": 88,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -315,5 +315,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-08-14T23:45:14.314086+00:00"
+    "_date": "2025-08-15T00:09:02.525555+00:00"
 }
