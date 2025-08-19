@@ -14,7 +14,7 @@
             "name": "iOS 18.6 (22G86)",
             "alternate": false,
             "date": "2025-11-12T00:00:00+00:00",
-            "delay": 20,
+            "delay": 21,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -46,7 +46,7 @@
             "name": "iOS 18.6 (22G86)",
             "alternate": false,
             "date": "2025-11-12T00:00:00+00:00",
-            "delay": 20,
+            "delay": 21,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -305,5 +305,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-08-18T23:50:33.280645+00:00"
+    "_date": "2025-08-19T00:07:37.930459+00:00"
 }
