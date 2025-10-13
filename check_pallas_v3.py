@@ -112,7 +112,18 @@ oses = {
     #         },
     #     },
     # },
-    "September 2024 iPhones": {
+    "September 2025 iPhones": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            "iPhone 17": {
+                "ProductType": "iPhone18,3",
+                "HWModelStr": "V57AP",
+            },
+        },
+    },
+    "iOS (devices supporting iOS 26)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -121,17 +132,10 @@ oses = {
                 "ProductType": "iPhone17,3",
                 "HWModelStr": "D47AP",
             },
-        },
-    },
-    "iOS (devices supporting iOS 18)": {
-        "main": asset_audiences["iOS"]["iOS release"],
-        "os_category": "iOS",
-        "default_name": "iPhone",
-        "devices": {
-            "iPhone 14": {
-                "ProductType": "iPhone14,7",
-                "HWModelStr": "D27AP",
-            },
+            # "iPhone 14": {
+            #     "ProductType": "iPhone14,7",
+            #     "HWModelStr": "D27AP",
+            # },
             # "iPhone X": {
             #   "ProductType": "iPhone10,6",
             #   "HWModelStr": "D221AP",
@@ -150,6 +154,17 @@ oses = {
             # },
             # "iPhone 7": {"ProductType": "iPhone9,3", "HWModelStr": "D101AP"},
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
+        },
+    },
+    "iOS Legacy v4 (devices supporting up to iOS 18)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "os_category": "iOS",
+        "default_name": "iPhone",
+        "devices": {
+            "iPhone XR": {
+                "ProductType": "iPhone11,8",
+                "HWModelStr": "N841AP",
+            },
         },
     },
     "iOS Legacy v3 (devices supporting up to iOS 16)": {
@@ -187,34 +202,34 @@ oses = {
             }
         },
     },
-    "M4 iPads": {
+    "iPadOS (devices supporting iPadOS 26)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
         "devices": {
+            # "iPad Air 13-inch (M3) Wi-Fi": {
+            #     "ProductType": "iPad15,5",
+            #     "HWModelStr": "J637AP",
+            # },
+            "iPad (A16) Wi-Fi": {
+                "ProductType": "iPad15,7",
+                "HWModelStr": "J481AP",
+            },
             "iPad Pro 11-inch (M4) Wi-Fi": {
                 "ProductType": "iPad16,3",
                 "HWModelStr": "J717AP",
             },
-            # "iPad (8th gen) WiFi": {
-            #     "ProductType": "iPad11,6",
-            #     "HWModelStr": "J171aAP",
-            # },
         },
     },
-    "iPadOS (devices supporting iPadOS 18)": {
+    "iPadOS Legacy v5 (devices supporting up to iPadOS 18)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
         "devices": {
-            "iPad Pro 12.9-inch (6th generation) WiFi": {
-                "ProductType": "iPad14,5",
-                "HWModelStr": "J620AP",
+            "iPad (7th generation) Wi-Fi": {
+                "ProductType": "iPad7,11",
+                "HWModelStr": "J171AP",
             },
-            # "iPad (8th gen) WiFi": {
-            #     "ProductType": "iPad11,6",
-            #     "HWModelStr": "J171aAP",
-            # },
         },
     },
     "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": {
