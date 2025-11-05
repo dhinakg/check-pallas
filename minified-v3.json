@@ -43,11 +43,21 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 18.7.1 (22H31)",
+            "name": "iOS 18.7.2 (22H124)",
             "alternate": true,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.7.1 (22H31)",
+            "alternate": true,
+            "date": "2026-02-03T00:00:00+00:00",
+            "delay": 37,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -121,7 +131,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -255,9 +265,9 @@
         {
             "name": "iPadOS 18.7.1 (22H31)",
             "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
+            "date": "2026-02-03T00:00:00+00:00",
+            "delay": 37,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -321,7 +331,7 @@
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -657,5 +667,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-11-05T18:08:22.664620+00:00"
+    "_date": "2025-11-05T18:50:43.501005+00:00"
 }
