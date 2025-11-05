@@ -115,11 +115,21 @@
     ],
     "iOS Legacy v4 (devices supporting up to iOS 18)": [
         {
-            "name": "iOS 18.7.1 (22H31)",
+            "name": "iOS 18.7.2 (22H124)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.7.1 (22H31)",
+            "alternate": false,
+            "date": "2026-02-03T00:00:00+00:00",
+            "delay": 37,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -233,6 +243,16 @@
             "mdm_only": false
         },
         {
+            "name": "iPadOS 18.7.2 (22H124)",
+            "alternate": true,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
             "name": "iPadOS 18.7.1 (22H31)",
             "alternate": true,
             "date": null,
@@ -295,11 +315,21 @@
     ],
     "iPadOS Legacy v5 (devices supporting up to iPadOS 18)": [
         {
-            "name": "iPadOS 18.7.1 (22H31)",
+            "name": "iPadOS 18.7.2 (22H124)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.7.1 (22H31)",
+            "alternate": false,
+            "date": "2026-02-03T00:00:00+00:00",
+            "delay": 37,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -627,5 +657,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-11-05T17:45:30.554271+00:00"
+    "_date": "2025-11-05T18:08:22.664620+00:00"
 }
