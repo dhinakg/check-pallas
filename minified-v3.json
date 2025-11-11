@@ -587,7 +587,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 26.0 (25A354)",
+            "name": "macOS Tahoe 26 (25A354)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 57,
@@ -597,7 +597,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 15.7 (24G222)",
+            "name": "macOS Sequoia 15.7 (24G222)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 57,
@@ -607,7 +607,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 14.8 (23J21)",
+            "name": "macOS Sonoma 14.8 (23J21)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 57,
@@ -617,7 +617,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 15.6.1 (24G90)",
+            "name": "macOS Sequoia 15.6.1 (24G90)",
             "alternate": false,
             "date": "2025-12-14T00:00:00+00:00",
             "delay": 83,
@@ -627,7 +627,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 14.7.8 (23H730)",
+            "name": "macOS Sonoma 14.7.8 (23H730)",
             "alternate": false,
             "date": "2025-12-14T00:00:00+00:00",
             "delay": 83,
@@ -637,7 +637,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 15.6 (24G84)",
+            "name": "macOS Sequoia 15.6 (24G84)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -647,7 +647,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 14.7.7 (23H723)",
+            "name": "macOS Sonoma 14.7.7 (23H723)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -657,7 +657,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS 13.7.7 (22H722)",
+            "name": "macOS Ventura 13.7.7 (22H722)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -667,5 +667,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-11-11T23:06:01.942590+00:00"
+    "_date": "2025-11-11T23:45:25.083570+00:00"
 }
