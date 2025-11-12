@@ -537,7 +537,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.0.1 (25A362)",
+            "name": "macOS 26.0.1 (25A362)",
             "alternate": false,
             "date": "2026-02-01T00:00:00+00:00",
             "delay": 44,
@@ -547,7 +547,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7.1 (24G231)",
+            "name": "macOS 15.7.1 (24G231)",
             "alternate": false,
             "date": "2026-02-01T00:00:00+00:00",
             "delay": 44,
@@ -557,7 +557,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8.1 (23J30)",
+            "name": "macOS 14.8.1 (23J30)",
             "alternate": false,
             "date": "2026-02-01T00:00:00+00:00",
             "delay": 44,
@@ -567,7 +567,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26 (25A354)",
+            "name": "macOS 26.0 (25A354)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 58,
@@ -577,7 +577,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7 (24G222)",
+            "name": "macOS 15.7 (24G222)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 58,
@@ -587,7 +587,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8 (23J21)",
+            "name": "macOS 14.8 (23J21)",
             "alternate": false,
             "date": "2025-12-28T00:00:00+00:00",
             "delay": 58,
@@ -597,7 +597,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.6.1 (24G90)",
+            "name": "macOS 15.6.1 (24G90)",
             "alternate": false,
             "date": "2025-12-14T00:00:00+00:00",
             "delay": 84,
@@ -607,7 +607,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.7.8 (23H730)",
+            "name": "macOS 14.7.8 (23H730)",
             "alternate": false,
             "date": "2025-12-14T00:00:00+00:00",
             "delay": 84,
@@ -617,7 +617,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.6 (24G84)",
+            "name": "macOS 15.6 (24G84)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -627,7 +627,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.7.7 (23H723)",
+            "name": "macOS 14.7.7 (23H723)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -637,7 +637,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Ventura 13.7.7 (22H722)",
+            "name": "macOS 13.7.7 (22H722)",
             "alternate": false,
             "date": "2025-11-18T00:00:00+00:00",
             "delay": 90,
@@ -647,5 +647,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-11-12T21:05:55.071263+00:00"
+    "_date": "2025-11-12T21:45:42.501688+00:00"
 }
