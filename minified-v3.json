@@ -537,7 +537,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.0.1 (25A362)",
+            "name": "macOS 26.0.1 (25A362)",
             "alternate": false,
             "date": "2026-02-01T00:00:00+00:00",
             "delay": 45,
@@ -607,7 +607,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.7.8 (23H730)",
+            "name": "macOS 14.7.8 (23H730)",
             "alternate": false,
             "date": "2025-12-14T00:00:00+00:00",
             "delay": 85,
@@ -647,5 +647,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-11-13T16:49:29.287081+00:00"
+    "_date": "2025-11-13T17:17:37.648614+00:00"
 }
