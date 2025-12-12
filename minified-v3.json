@@ -213,11 +213,21 @@
             "mdm_only": false
         },
         {
-            "name": "iPadOS 18.7.2 (22H124)",
+            "name": "iPadOS 18.7.3 (22H217)",
             "alternate": true,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.7.2 (22H124)",
+            "alternate": true,
+            "date": "2026-03-12T00:00:00+00:00",
+            "delay": 37,
+            "latest": false,
             "imminent": false,
             "mdm_available": false,
             "mdm_only": false
@@ -567,5 +577,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2025-12-12T17:46:23.722225+00:00"
+    "_date": "2025-12-12T18:08:27.446662+00:00"
 }
