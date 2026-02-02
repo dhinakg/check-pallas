@@ -127,11 +127,21 @@
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
         {
-            "name": "iOS 16.7.13 (20H365)",
+            "name": "iOS 16.7.14 (20H370)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 16.7.13 (20H365)",
+            "alternate": false,
+            "date": "2026-05-03T00:00:00+00:00",
+            "delay": 7,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -309,11 +319,21 @@
     ],
     "iPadOS Legacy v3 (devices supporting up to iPadOS 16)": [
         {
-            "name": "iPadOS 16.7.13 (20H365)",
+            "name": "iPadOS 16.7.14 (20H370)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 16.7.13 (20H365)",
+            "alternate": false,
+            "date": "2026-05-03T00:00:00+00:00",
+            "delay": 7,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -447,11 +467,21 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Big Sur 11.7.10 (20G1427)",
+            "name": "macOS Big Sur 11.7.11 (20G1443)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Big Sur 11.7.10 (20G1427)",
+            "alternate": false,
+            "date": "2026-05-03T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -487,5 +517,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-02-02T17:57:01.751593+00:00"
+    "_date": "2026-02-02T18:17:07.502590+00:00"
 }
