@@ -597,7 +597,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.3.1 (25D2128)",
+            "name": "macOS 26.3.1 (25D2128)",
             "alternate": false,
             "date": "2026-06-22T00:00:00+00:00",
             "delay": 32,
@@ -607,7 +607,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7.4 (24G517)",
+            "name": "macOS 15.7.4 (24G517)",
             "alternate": false,
             "date": "2026-06-22T00:00:00+00:00",
             "delay": 53,
@@ -617,7 +617,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8.4 (23J319)",
+            "name": "macOS 14.8.4 (23J319)",
             "alternate": false,
             "date": "2026-06-22T00:00:00+00:00",
             "delay": 53,
@@ -637,7 +637,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.2 (25C56)",
+            "name": "macOS 26.2 (25C56)",
             "alternate": false,
             "date": "2026-05-12T00:00:00+00:00",
             "delay": 90,
@@ -647,7 +647,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7.3 (24G419)",
+            "name": "macOS 15.7.3 (24G419)",
             "alternate": false,
             "date": "2026-05-12T00:00:00+00:00",
             "delay": 90,
@@ -657,7 +657,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8.3 (23J220)",
+            "name": "macOS 14.8.3 (23J220)",
             "alternate": false,
             "date": "2026-05-12T00:00:00+00:00",
             "delay": 90,
@@ -667,7 +667,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Big Sur 11.7.10 (20G1427)",
+            "name": "macOS 11.7.10 (20G1427)",
             "alternate": false,
             "date": "2026-05-03T00:00:00+00:00",
             "delay": 90,
@@ -677,5 +677,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-04-05T09:00:04.261081+00:00"
+    "_date": "2026-04-05T09:21:58.004873+00:00"
 }
