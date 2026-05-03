@@ -225,16 +225,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 16.7.13 (20H365)",
-            "alternate": false,
-            "date": "2026-05-03T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v2 (device supporting up to iOS 15)": [
@@ -437,16 +427,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 16.7.13 (20H365)",
-            "alternate": false,
-            "date": "2026-05-03T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v2 (devices supporting up to iPadOS 15)": [
@@ -655,17 +635,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Big Sur 11.7.10 (20G1427)",
-            "alternate": false,
-            "date": "2026-05-03T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2026-05-03T18:00:03.551580+00:00"
+    "_date": "2026-05-03T18:29:23.062256+00:00"
 }
