@@ -14,8 +14,8 @@ urllib3.disable_warnings()
 
 pmv = json.loads(hammock("https://gdmf.apple.com/v2/pmv").GET(verify=False).text)
 
-by_os = {"iOS": [], "iPadOS": [], "macOS": [], "tvOS": []}
-sorted_assets = {"iOS": {}, "iPadOS": {}, "macOS": {}, "tvOS": {}}
+by_os = {"iOS": [], "iPadOS": [], "macOS": [], "tvOS": [], "audioOS": [], "visionOS": [], "watchOS": []}
+sorted_assets = {"iOS": {}, "iPadOS": {}, "macOS": {}, "tvOS": {}, "audioOS": {}, "visionOS": {}, "watchOS": {}}
 
 for asset_set in pmv:
     if asset_set == "PublicAssetSets":
@@ -27,12 +27,14 @@ for asset_set in pmv:
                 by_os["iOS"].append(asset)
             if any("iPad" in i for i in asset["SupportedDevices"]):
                 by_os["iPadOS"].append(asset)
-            # if any("Watch" in i for i in asset["SupportedDevices"]):
-            #     by_os["watchOS"].append(asset)
+            if any("Watch" in i for i in asset["SupportedDevices"]):
+                by_os["watchOS"].append(asset)
             if any("AppleTV" in i for i in asset["SupportedDevices"]):
                 by_os["tvOS"].append(asset)
-            # if any("Audio" in i for i in asset["SupportedDevices"]):
-            #     by_os["audioOS"].append(asset)
+            if any("AudioAccessory" in i for i in asset["SupportedDevices"]):
+                by_os["audioOS"].append(asset)
+            if any("RealityDevice" in i for i in asset["SupportedDevices"]):
+                by_os["visionOS"].append(asset)
             if asset_type == "macOS":
                 by_os["macOS"].append(asset)
 

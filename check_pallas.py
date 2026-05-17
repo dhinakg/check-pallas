@@ -75,28 +75,26 @@ oses = {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPhone",
         "devices": {
-            # "iPhone X": {
-            #   "ProductType": "iPhone10,6",
-            #   "HWModelStr": "D221AP",
-            # },
+            "iPhone 16": {
+                "ProductType": "iPhone17,3",
+                "HWModelStr": "D47AP",
+            },
             "iPhone XR": {
                 "ProductType": "iPhone11,8",
                 "HWModelStr": "N841AP",
+            },
+            "iPhone X": {
+              "ProductType": "iPhone10,6",
+              "HWModelStr": "D221AP",
+            },
+            "iPhone 6s": {
+                "ProductType": "iPhone8,1",
+                "HWModelStr": "N71AP",
             },
             "iPhone 6+": {
                 "ProductType": "iPhone7,1",
                 "HWModelStr": "N56AP",
             },
-            # "iPhone 12": {
-            #     "ProductType": "iPhone13,2",
-            #     "HWModelStr": "D53gAP",
-            # },
-            # "iPhone 6s": {
-            #     "ProductType": "iPhone8,1",
-            #     "HWModelStr": "N71AP",
-            # },
-            # "iPhone 7": {"ProductType": "iPhone9,3", "HWModelStr": "D101AP"},
-            # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
     "iPadOS": {
@@ -106,6 +104,22 @@ oses = {
             "iPad mini 3": {
                 "ProductType": "iPad4,9",
                 "HWModelStr": "J87mAP",
+            },
+            "iPad mini 4": {
+                "ProductType": "iPad5,1",
+                "HWModelStr": "J96AP",
+            },
+            "iPad (5th generation) Wi-Fi": {
+                "ProductType": "iPad6,11",
+                "HWModelStr": "J71sAP",
+            },
+            "iPad (6th generation) Wi-Fi": {
+                "ProductType": "iPad7,5",
+                "HWModelStr": "J71bAP",
+            },
+            "iPad (7th generation) Wi-Fi": {
+                "ProductType": "iPad7,11",
+                "HWModelStr": "J171AP",
             },
             "iPad (8th gen) WiFi": {
                 "ProductType": "iPad11,6",
@@ -121,26 +135,37 @@ oses = {
             # "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
         },
     },
-    # "watchOS": {
-    #     "main": "b82fcf9c-c284-41c9-8eb2-e69bf5a5269f",
-    #     "devices": {
-    #         "Watch5,10": {"ProductType": "Watch5,10", "HWModelStr": "N140bAP"},
-    #         "Watch4,2": {"ProductType": "Watch4,2", "HWModelStr": "N131bAP"},
-    #         "Watch6,2": {"ProductType": "Watch6,2", "HWModelStr": "N157bAP"},
-    #     },
-    # },
-    # "audioOS": {
-    #     "main": "0322d49d-d558-4ddf-bdff-c0443d0e6fac",
-    #     "devices": {
-    #         "AudioAccessory1,2": {"ProductType": "AudioAccessory1,2", "HWModelStr": "B238AP"},
-    #     },
-    # },
+    "watchOS": {
+        "main": "b82fcf9c-c284-41c9-8eb2-e69bf5a5269f",
+        "default_name": "Watch",
+        "devices": {
+            "Watch2,4": {"ProductType": "Watch2,4", "HWModelStr": "N75AP"},
+            "Watch3,2": {"ProductType": "Watch3,2", "HWModelStr": "N111bAP"},
+            "Watch4,2": {"ProductType": "Watch4,2", "HWModelStr": "N131bAP"},
+            "Watch6,2": {"ProductType": "Watch6,2", "HWModelStr": "N157bAP"},
+        },
+    },
+    "audioOS": {
+        "main": "0322d49d-d558-4ddf-bdff-c0443d0e6fac",
+        "default_name": "AudioAccessory",
+        "devices": {
+            "AudioAccessory1,1": {"ProductType": "AudioAccessory1,1", "HWModelStr": "B238aAP"},
+        },
+    },
+    "visionOS": {
+        "main": "c59ff9d1-5468-4f6c-9e54-f68d5eeab93b",
+        "default_name": "RealityDevice",
+        "devices": {
+            "RealityDevice14,1": {"ProductType": "RealityDevice14,1", "HWModelStr": "N301AP"},
+        },
+    },
     "macOS": {
         "type": "com.apple.MobileAsset.MacSoftwareUpdate",
         "main": "60b55e25-a8ed-4f45-826c-c1495a4ccc65",
         "default_name": "Mac",
         "devices": {
-            "MacPro7,1": {"HWModelStr": "Mac-27AD2F918AE68F61", "ProductType": "MacPro7,1"},  # MacPro7,1,
+            "Mac17,5": {"HWModelStr": "J700AP", "ProductType": "Mac17,5"},  # Mac17,5,
+            "MacPro7,1": {"HWModelStr": "J160AP", "ProductType": "MacPro7,1"},  # MacPro7,1,
         },
     },
 }
@@ -164,7 +189,7 @@ REQUEST_DICT = {
     # "RequestedProductVersion": "12.5.2",
     # Not required
     # "ClientData": {"AllowXmlFallback": "true", "DeviceAccessClient": "softwareupdated"},
-    "ProductVersion": "0",
+    "ProductVersion": "",
     "BuildVersion": "0",
 }
 
@@ -179,8 +204,8 @@ def get_json(content):
 
 pmv = json.loads(session.get("https://gdmf.apple.com/v2/pmv").text)
 
-by_os = {"iOS": [], "iPadOS": [], "macOS": [], "tvOS": []}
-sorted_assets = {"iOS": {}, "iPadOS": {}, "macOS": {}, "tvOS": {}}
+by_os = {"iOS": [], "iPadOS": [], "macOS": [], "tvOS": [], "audioOS": [], "visionOS": [], "watchOS": []}
+sorted_assets = {"iOS": {}, "iPadOS": {}, "macOS": {}, "tvOS": {}, "audioOS": {}, "visionOS": {}, "watchOS": {}}
 
 for asset_set in pmv:
     if asset_set == "PublicAssetSets":
@@ -194,6 +219,12 @@ for asset_set in pmv:
                 by_os["iPadOS"].append(asset)
             if any("AppleTV" in i for i in asset["SupportedDevices"]):
                 by_os["tvOS"].append(asset)
+            if any("AudioAccessory" in i for i in asset["SupportedDevices"]):
+                by_os["audioOS"].append(asset)
+            if any("RealityDevice" in i for i in asset["SupportedDevices"]):
+                by_os["visionOS"].append(asset)
+            if any("Watch" in i for i in asset["SupportedDevices"]):
+                by_os["watchOS"].append(asset)
             if asset_type == "macOS":
                 by_os["macOS"].append(asset)
 
@@ -275,7 +306,10 @@ for os, this_os in oses.items():
                             try:
                                 if asset["SUDocumentationID"] not in documentation_cache.setdefault(this_os["default_name"], {}):
                                     docs_dict = request_dict.copy()
-                                    docs_dict["AssetType"] = "com.apple.MobileAsset.SoftwareUpdateDocumentation"
+                                    if os == 'watchOS':
+                                        docs_dict["AssetType"] = "com.apple.MobileAsset.WatchSoftwareUpdateDocumentation"
+                                    else:
+                                        docs_dict["AssetType"] = "com.apple.MobileAsset.SoftwareUpdateDocumentation"
                                     docs_dict["SUDocumentationID"] = asset["SUDocumentationID"]
 
                                     docs_response = session.post(ASSETS_URL, json=docs_dict)
@@ -351,7 +385,10 @@ for os, this_os in oses.items():
                     try:
                         if asset["SUDocumentationID"] not in documentation_cache.setdefault(this_os["default_name"], {}):
                             docs_dict = request_dict.copy()
-                            docs_dict["AssetType"] = "com.apple.MobileAsset.SoftwareUpdateDocumentation"
+                            if os == 'watchOS':
+                                docs_dict["AssetType"] = "com.apple.MobileAsset.WatchSoftwareUpdateDocumentation"
+                            else:
+                                docs_dict["AssetType"] = "com.apple.MobileAsset.SoftwareUpdateDocumentation"
                             docs_dict["SUDocumentationID"] = asset["SUDocumentationID"]
 
                             docs_response = session.post(ASSETS_URL, json=docs_dict)
