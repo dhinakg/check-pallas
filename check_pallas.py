@@ -79,22 +79,30 @@ oses = {
             #   "ProductType": "iPhone10,6",
             #   "HWModelStr": "D221AP",
             # },
+            "iPhone 17": {
+                "ProductType": "iPhone18,3",
+                "HWModelStr": "V57AP",
+            },
+            "iPhone 12": {
+                "ProductType": "iPhone13,2",
+                "HWModelStr": "D53gAP",
+            },
             "iPhone XR": {
                 "ProductType": "iPhone11,8",
                 "HWModelStr": "N841AP",
+            },
+            "iPhone 8": {
+                "ProductType": "iPhone10,1",
+                "HWModelStr": "D20AP",
+            },
+            "iPhone 6s": {
+                "ProductType": "iPhone8,1",
+                "HWModelStr": "N71AP",
             },
             "iPhone 6+": {
                 "ProductType": "iPhone7,1",
                 "HWModelStr": "N56AP",
             },
-            # "iPhone 12": {
-            #     "ProductType": "iPhone13,2",
-            #     "HWModelStr": "D53gAP",
-            # },
-            # "iPhone 6s": {
-            #     "ProductType": "iPhone8,1",
-            #     "HWModelStr": "N71AP",
-            # },
             # "iPhone 7": {"ProductType": "iPhone9,3", "HWModelStr": "D101AP"},
             # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
@@ -103,13 +111,33 @@ oses = {
         "main": "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
         "default_name": "iPad",
         "devices": {
-            "iPad mini 3": {
-                "ProductType": "iPad4,9",
-                "HWModelStr": "J87mAP",
+            "iPad (9th gen) WiFi": {
+                "ProductType": "iPad12,1",
+                "HWModelStr": "J271AP",
             },
             "iPad (8th gen) WiFi": {
                 "ProductType": "iPad11,6",
                 "HWModelStr": "J171aAP",
+            },
+            "iPad (7th gen) WiFi": {
+                "ProductType": "iPad7,11",
+                "HWModelStr": "J171AP",
+            },
+            "iPad (6th gen) WiFi": {
+                "ProductType": "iPad7,5",
+                "HWModelStr": "J71bAP",
+            },
+            "iPad (5th gen) WiFi": {
+                "ProductType": "iPad6,11",
+                "HWModelStr": "J71sAP",
+            },
+            "iPad mini 4": {
+                "ProductType": "iPad5,1",
+                "HWModelStr": "J96AP",
+            },
+            "iPad mini 3": {
+                "ProductType": "iPad4,9",
+                "HWModelStr": "J87mAP",
             },
         },
     },
@@ -118,7 +146,7 @@ oses = {
         "default_name": "TV",
         "devices": {
             "Apple TV HD": {"ProductType": "AppleTV5,3", "HWModelStr": "J42dAP"},
-            # "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
+            "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
         },
     },
     # "watchOS": {
@@ -140,7 +168,9 @@ oses = {
         "main": "60b55e25-a8ed-4f45-826c-c1495a4ccc65",
         "default_name": "Mac",
         "devices": {
-            "MacPro7,1": {"HWModelStr": "Mac-27AD2F918AE68F61", "ProductType": "MacPro7,1"},  # MacPro7,1,
+            # "MacPro7,1": {"HWModelStr": "Mac-27AD2F918AE68F61", "ProductType": "MacPro7,1"},  # MacPro7,1,
+            "MacPro7,1": {"HWModelStr": "J160AP", "ProductType": "MacPro7,1"},  # MacPro7,1,
+            "Mac17,5": {"HWModelStr": "J700AP", "ProductType": "Mac17,5"},  # Mac17,5,
         },
     },
 }

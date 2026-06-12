@@ -90,28 +90,6 @@ alternate_names = {"c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Upd
 
 
 oses = {
-    # "iOS (iPhone 14 series)": {
-    #     "main": asset_audiences["iOS"]["iOS release"],
-    #     "os_category": "iOS",
-    #     "default_name": "iPhone",
-    #     "devices": {
-    #         "iPhone 14": {
-    #             "ProductType": "iPhone14,7",
-    #             "HWModelStr": "D27AP",
-    #         },
-    #     },
-    # },
-    # "iPhone 12 series/13 series": {
-    #     "main": asset_audiences["iOS"]["iOS release"],
-    #     "os_category": "iOS",
-    #     "default_name": "iPhone",
-    #     "devices": {
-    #         "iPhone 12": {
-    #             "ProductType": "iPhone13,2",
-    #             "HWModelStr": "D53gAP",
-    #         },
-    #     },
-    # },
     "September 2025 iPhones": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
@@ -136,24 +114,10 @@ oses = {
             #     "ProductType": "iPhone14,7",
             #     "HWModelStr": "D27AP",
             # },
-            # "iPhone X": {
-            #   "ProductType": "iPhone10,6",
-            #   "HWModelStr": "D221AP",
-            # },
-            # "iPhone XR": {
-            #     "ProductType": "iPhone11,8",
-            #     "HWModelStr": "N841AP",
-            # },
             # "iPhone 12": {
             #     "ProductType": "iPhone13,2",
             #     "HWModelStr": "D53gAP",
             # },
-            # "iPhone 6s": {
-            #     "ProductType": "iPhone8,1",
-            #     "HWModelStr": "N71AP",
-            # },
-            # "iPhone 7": {"ProductType": "iPhone9,3", "HWModelStr": "D101AP"},
-            # "iPhone 7 v2": {"ProductType": "iPhone9,1", "HWModelStr": "D10AP"},
         },
     },
     "iOS Legacy v4 (devices supporting up to iOS 18)": {
@@ -281,7 +245,7 @@ oses = {
         "default_name": "TV",
         "os_category": "tvOS",
         "devices": {
-            # "Apple TV HD": {"ProductType": "AppleTV5,3", "HWModelStr": "J42dAP"},
+            "Apple TV HD": {"ProductType": "AppleTV5,3", "HWModelStr": "J42dAP"},
             "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
         },
     },
@@ -306,6 +270,7 @@ oses = {
         "os_category": "macOS",
         "devices": {
             "MacPro7,1": {"HWModelStr": "J160AP", "ProductType": "MacPro7,1"},  # MacPro7,1,
+            "Mac17,5": {"HWModelStr": "J700AP", "ProductType": "Mac17,5"},  # Mac17,5,
         },
     },
 }
@@ -520,7 +485,7 @@ for os, this_os in oses.items():
                         unit["title"] = get_title(this_os["default_name"], request_dict)
                     print(f"Found {version} for period {period} with device {device}")
 
-                    if asset.get("EnableAlternateAssetAudience"):
+                    if asset.get("EnableAlternateAssetAudience") and not (posting=='2026-06-09' and asset.get("AlternateAssetAudienceUUID", '') == '430a1c80-0547-4222-a72b-1b6d61fc9e08'):
                         alternate_audience = asset["AlternateAssetAudienceUUID"]
                         request_dict["AssetAudience"] = alternate_audience
                         response = session.post(ASSETS_URL, json=request_dict)
