@@ -14,7 +14,7 @@
             "name": "iOS 26.5.1 (23F81)",
             "alternate": false,
             "date": "2026-09-27T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -24,7 +24,7 @@
             "name": "iOS 26.5 (23F77)",
             "alternate": false,
             "date": "2026-08-30T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -66,7 +66,7 @@
             "name": "iOS 26.5 (23F77)",
             "alternate": false,
             "date": "2026-09-27T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -186,7 +186,7 @@
             "name": "iPadOS 26.5 (23F77)",
             "alternate": false,
             "date": "2026-09-27T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -390,7 +390,7 @@
             "name": "macOS Tahoe 26.5.1 (25F80)",
             "alternate": false,
             "date": "2026-09-27T00:00:00+00:00",
-            "delay": 53,
+            "delay": 54,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -400,7 +400,7 @@
             "name": "macOS Tahoe 26.5 (25F71)",
             "alternate": false,
             "date": "2026-08-30T00:00:00+00:00",
-            "delay": 74,
+            "delay": 75,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -437,5 +437,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-07-24T23:40:13.438381+00:00"
+    "_date": "2026-07-25T01:10:35.262721+00:00"
 }
