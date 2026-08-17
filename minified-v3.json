@@ -1,11 +1,21 @@
 {
     "September 2025 iPhones": [
         {
-            "name": "iOS 26.6 (23G71)",
+            "name": "iOS 26.6.1 (23G83)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 26.6 (23G71)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,13 +53,13 @@
     ],
     "iOS (devices supporting iOS 26)": [
         {
-            "name": "iOS 26.6 (23G71)",
+            "name": "iOS 26.6.1 (23G83)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -60,6 +70,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 26.6 (23G71)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -85,11 +105,21 @@
     ],
     "iOS Legacy v4 (devices supporting up to iOS 18)": [
         {
-            "name": "iOS 18.7.9 (22H355)",
+            "name": "iOS 18.7.10 (22H374)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 18.7.9 (22H355)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -133,13 +163,13 @@
     ],
     "iPadOS (devices supporting iPadOS 26)": [
         {
-            "name": "iPadOS 26.6 (23G71)",
+            "name": "iPadOS 26.6.1 (23G83)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -150,6 +180,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.6 (23G71)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 21,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -175,11 +215,21 @@
     ],
     "iPadOS Legacy v5 (devices supporting up to iPadOS 18)": [
         {
-            "name": "iPadOS 18.7.9 (22H355)",
+            "name": "iPadOS 18.7.10 (22H374)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.7.9 (22H355)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -257,13 +307,13 @@
     ],
     "macOS": [
         {
-            "name": "macOS Tahoe 26.6.1 (25G76)",
+            "name": "macOS Tahoe 26.6.2 (25G83)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
             "imminent": false,
-            "mdm_available": true,
+            "mdm_available": false,
             "mdm_only": false
         },
         {
@@ -312,6 +362,16 @@
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Tahoe 26.6.1 (25G76)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 11,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -397,5 +457,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-08-17T17:00:26.189233+00:00"
+    "_date": "2026-08-17T17:36:40.271487+00:00"
 }
