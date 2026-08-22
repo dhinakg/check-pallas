@@ -367,7 +367,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.6.1 (25G76)",
+            "name": "macOS 26.6.1 (25G76)",
             "alternate": false,
             "date": "2026-11-15T00:00:00+00:00",
             "delay": 16,
@@ -377,7 +377,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.6 (25G72)",
+            "name": "macOS 26.6 (25G72)",
             "alternate": false,
             "date": "2026-11-04T00:00:00+00:00",
             "delay": 26,
@@ -387,7 +387,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7.8 (24G824)",
+            "name": "macOS 15.7.8 (24G824)",
             "alternate": false,
             "date": "2026-11-04T00:00:00+00:00",
             "delay": 26,
@@ -397,7 +397,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8.8 (23J620)",
+            "name": "macOS 14.8.8 (23J620)",
             "alternate": false,
             "date": "2026-11-04T00:00:00+00:00",
             "delay": 26,
@@ -407,7 +407,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.5.2 (25F84)",
+            "name": "macOS 26.5.2 (25F84)",
             "alternate": false,
             "date": "2026-10-25T00:00:00+00:00",
             "delay": 54,
@@ -417,7 +417,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.7.7 (24G720)",
+            "name": "macOS 15.7.7 (24G720)",
             "alternate": false,
             "date": "2026-10-25T00:00:00+00:00",
             "delay": 90,
@@ -427,7 +427,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sonoma 14.8.7 (23J520)",
+            "name": "macOS 14.8.7 (23J520)",
             "alternate": false,
             "date": "2026-10-25T00:00:00+00:00",
             "delay": 90,
@@ -437,7 +437,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.5.1 (25F80)",
+            "name": "macOS 26.5.1 (25F80)",
             "alternate": false,
             "date": "2026-09-27T00:00:00+00:00",
             "delay": 82,
@@ -447,7 +447,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.5 (25F71)",
+            "name": "macOS 26.5 (25F71)",
             "alternate": false,
             "date": "2026-08-30T00:00:00+00:00",
             "delay": 90,
@@ -457,5 +457,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-08-22T16:57:38.523145+00:00"
+    "_date": "2026-08-22T17:24:10.978764+00:00"
 }
