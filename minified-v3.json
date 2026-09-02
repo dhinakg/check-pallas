@@ -13,8 +13,8 @@
         {
             "name": "iOS 26.6 (23G71)",
             "alternate": false,
-            "date": "2026-11-16T00:00:00+00:00",
-            "delay": 36,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 37,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -23,8 +23,8 @@
         {
             "name": "iOS 26.5.2 (23F84)",
             "alternate": false,
-            "date": "2026-10-26T00:00:00+00:00",
-            "delay": 64,
+            "date": "2026-10-25T00:00:00+00:00",
+            "delay": 65,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -33,7 +33,7 @@
         {
             "name": "iOS 26.5.1 (23F81)",
             "alternate": false,
-            "date": "2026-09-28T00:00:00+00:00",
+            "date": "2026-09-27T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -65,8 +65,8 @@
         {
             "name": "iOS 26.6 (23G71)",
             "alternate": false,
-            "date": "2026-11-16T00:00:00+00:00",
-            "delay": 36,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 37,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -75,8 +75,8 @@
         {
             "name": "iOS 26.5.2 (23F84)",
             "alternate": false,
-            "date": "2026-10-26T00:00:00+00:00",
-            "delay": 64,
+            "date": "2026-10-25T00:00:00+00:00",
+            "delay": 65,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -85,7 +85,7 @@
         {
             "name": "iOS 26.5 (23F77)",
             "alternate": false,
-            "date": "2026-09-28T00:00:00+00:00",
+            "date": "2026-09-27T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -107,7 +107,7 @@
         {
             "name": "iOS 18.7.9 (22H355)",
             "alternate": false,
-            "date": "2026-11-16T00:00:00+00:00",
+            "date": "2026-11-15T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -175,8 +175,8 @@
         {
             "name": "iPadOS 26.6 (23G71)",
             "alternate": false,
-            "date": "2026-11-16T00:00:00+00:00",
-            "delay": 36,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 37,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -185,7 +185,7 @@
         {
             "name": "iPadOS 26.5.2 (23F84)",
             "alternate": false,
-            "date": "2026-10-26T00:00:00+00:00",
+            "date": "2026-10-25T00:00:00+00:00",
             "delay": 65,
             "latest": false,
             "imminent": false,
@@ -195,7 +195,7 @@
         {
             "name": "iPadOS 26.5 (23F77)",
             "alternate": false,
-            "date": "2026-09-28T00:00:00+00:00",
+            "date": "2026-09-27T00:00:00+00:00",
             "delay": 90,
             "latest": false,
             "imminent": false,
@@ -437,5 +437,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-09-02T00:01:14.356095+00:00"
+    "_date": "2026-09-02T01:48:45.656010+00:00"
 }
