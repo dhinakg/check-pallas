@@ -1,11 +1,21 @@
 {
     "September 2025 iPhones": [
         {
-            "name": "iOS 26.6.1 (23G83)",
+            "name": "iOS 26.6.2 (23G90)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 26.6.1 (23G83)",
+            "alternate": false,
+            "date": "2026-12-07T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -43,7 +53,7 @@
     ],
     "iOS (devices supporting iOS 26)": [
         {
-            "name": "iOS 26.6.1 (23G83)",
+            "name": "iOS 26.6.2 (23G90)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -60,6 +70,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 26.6.1 (23G83)",
+            "alternate": false,
+            "date": "2026-12-07T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -153,7 +173,7 @@
     ],
     "iPadOS (devices supporting iPadOS 26)": [
         {
-            "name": "iPadOS 26.6.1 (23G83)",
+            "name": "iPadOS 26.6.2 (23G90)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -170,6 +190,16 @@
             "latest": true,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.6.1 (23G83)",
+            "alternate": false,
+            "date": "2026-12-07T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -437,5 +467,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-09-08T16:04:16.049842+00:00"
+    "_date": "2026-09-08T19:34:13.475518+00:00"
 }
