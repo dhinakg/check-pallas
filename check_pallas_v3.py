@@ -90,18 +90,18 @@ alternate_names = {"c724cb61-e974-42d3-a911-ffd4dce11eda": "iOS 14 Alternate Upd
 
 
 oses = {
-    "September 2025 iPhones": {
+    "September 2026 iPhones": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
         "devices": {
-            "iPhone 17": {
-                "ProductType": "iPhone18,3",
-                "HWModelStr": "V57AP",
+            "iPhone 18 Pro": {
+                "ProductType": "iPhone19,2",
+                "HWModelStr": "V63AP",
             },
         },
     },
-    "iOS (devices supporting iOS 26)": {
+    "iOS (devices supporting iOS 27)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "os_category": "iOS",
         "default_name": "iPhone",
@@ -166,7 +166,7 @@ oses = {
             }
         },
     },
-    "iPadOS (devices supporting iPadOS 26)": {
+    "iPadOS (devices supporting iPadOS 27)": {
         "main": asset_audiences["iOS"]["iOS release"],
         "default_name": "iPad",
         "os_category": "iPadOS",
@@ -182,6 +182,17 @@ oses = {
             "iPad Pro 11-inch (M4) Wi-Fi": {
                 "ProductType": "iPad16,3",
                 "HWModelStr": "J717AP",
+            },
+        },
+    },
+    "iPadOS Legacy v6 (devices supporting up to iPadOS 26)": {
+        "main": asset_audiences["iOS"]["iOS release"],
+        "default_name": "iPad",
+        "os_category": "iPadOS",
+        "devices": {
+            "iPad (8th generation) Wi-Fi": {
+                "ProductType": "iPad11,6",
+                "HWModelStr": "J171aAP",
             },
         },
     },
@@ -240,13 +251,20 @@ oses = {
             },
         },
     },
-    "tvOS": {
+    "tvOS (devices supporting tvOS 27)": {
+        "main": "356d9da0-eee4-4c6c-bbe5-99b60eadddf0",
+        "default_name": "TV",
+        "os_category": "tvOS",
+        "devices": {
+            "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
+        },
+    },
+    "tvOS Legacy (devices supporting up to tvOS 26)": {
         "main": "356d9da0-eee4-4c6c-bbe5-99b60eadddf0",
         "default_name": "TV",
         "os_category": "tvOS",
         "devices": {
             "Apple TV HD": {"ProductType": "AppleTV5,3", "HWModelStr": "J42dAP"},
-            "AppleTV11,1": {"ProductType": "AppleTV11,1", "HWModelStr": "J305AP"},
         },
     },
     # "watchOS": {
@@ -395,7 +413,7 @@ for os, this_os in oses.items():
                         build = asset["Build"]
                         posting = result["PostingDate"]
 
-                        if asset.get("ReleaseType") == "Beta" and os == "tvOS":
+                        if asset.get("ReleaseType") == "Beta" and os.startswith("tvOS"):
                             continue
 
                         unit = check_in_assets(os, build, posting)
@@ -460,7 +478,7 @@ for os, this_os in oses.items():
                     build = asset["Build"]
                     posting = result["PostingDate"]
 
-                    if asset.get("ReleaseType") == "Beta" and os == "tvOS":
+                    if asset.get("ReleaseType") == "Beta" and os.startswith("tvOS"):
                         continue
 
                     unit = check_in_assets(os, build, posting)
@@ -498,7 +516,7 @@ for os, this_os in oses.items():
                                 build = asset["Build"]
                                 posting = result["PostingDate"]
 
-                                if asset.get("ReleaseType") == "Beta" and os == "tvOS":
+                                if asset.get("ReleaseType") == "Beta" and os.startswith("tvOS"):
                                     continue
 
                                 unit = check_in_assets(os, build, posting, True)
