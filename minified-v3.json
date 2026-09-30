@@ -1,5 +1,5 @@
 {
-    "September 2025 iPhones": [
+    "September 2026 iPhones": [
         {
             "name": "iOS 27.0.1 (24A446)",
             "alternate": false,
@@ -11,77 +11,17 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 26.7.1 (23H30)",
-            "alternate": true,
-            "date": null,
-            "delay": 0,
-            "latest": true,
-            "imminent": false,
-            "mdm_available": false,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 27 (24A437)",
+            "name": "iOS 27.0 (24A437)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
             "delay": 16,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 26.7 (23H24)",
-            "alternate": true,
-            "date": "2026-12-27T00:00:00+00:00",
-            "delay": 16,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": false,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 26.6.2 (23G90)",
-            "alternate": false,
-            "date": "2026-12-13T00:00:00+00:00",
-            "delay": 22,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 26.6.1 (23G83)",
-            "alternate": false,
-            "date": "2026-12-07T00:00:00+00:00",
-            "delay": 44,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 26.6 (23G71)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": 65,
-            "latest": false,
-            "imminent": false,
-            "mdm_available": true,
-            "mdm_only": false
-        },
-        {
-            "name": "iOS 26.5.2 (23F84)",
-            "alternate": false,
-            "date": "2026-10-25T00:00:00+00:00",
-            "delay": 90,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
         }
     ],
-    "iOS (devices supporting iOS 26)": [
+    "iOS (devices supporting iOS 27)": [
         {
             "name": "iOS 27.0.1 (24A446)",
             "alternate": false,
@@ -231,7 +171,7 @@
             "mdm_only": false
         }
     ],
-    "iPadOS (devices supporting iPadOS 26)": [
+    "iPadOS (devices supporting iPadOS 27)": [
         {
             "name": "iPadOS 27.0.1 (24A446)",
             "alternate": false,
@@ -270,6 +210,78 @@
             "latest": false,
             "imminent": false,
             "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.6.2 (23G90)",
+            "alternate": false,
+            "date": "2026-12-13T00:00:00+00:00",
+            "delay": 22,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 18.7.8 (22H352)",
+            "alternate": true,
+            "date": "2026-12-13T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.6.1 (23G83)",
+            "alternate": false,
+            "date": "2026-12-07T00:00:00+00:00",
+            "delay": 44,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.6 (23G71)",
+            "alternate": false,
+            "date": "2026-11-15T00:00:00+00:00",
+            "delay": 65,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.5.2 (23F84)",
+            "alternate": false,
+            "date": "2026-10-25T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "iPadOS Legacy v6 (devices supporting up to iPadOS 26)": [
+        {
+            "name": "iPadOS 26.7.1 (23H30)",
+            "alternate": false,
+            "date": null,
+            "delay": 0,
+            "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.7 (23H24)",
+            "alternate": false,
+            "date": "2026-12-27T00:00:00+00:00",
+            "delay": 16,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
             "mdm_only": false
         },
         {
@@ -393,7 +405,7 @@
             "mdm_only": false
         }
     ],
-    "tvOS": [
+    "tvOS (devices supporting tvOS 27)": [
         {
             "name": "tvOS 27.0 (24J361)",
             "alternate": false,
@@ -404,6 +416,28 @@
             "mdm_available": true,
             "mdm_only": false
         },
+        {
+            "name": "tvOS 26.6 (23L773)",
+            "alternate": false,
+            "date": "2026-12-13T00:00:00+00:00",
+            "delay": 65,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 26.5 (23L471)",
+            "alternate": false,
+            "date": "2026-10-25T00:00:00+00:00",
+            "delay": 90,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        }
+    ],
+    "tvOS Legacy (devices supporting up to tvOS 26)": [
         {
             "name": "tvOS 26.6 (23L773)",
             "alternate": false,
@@ -617,5 +651,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-09-30T08:05:22.904314+00:00"
+    "_date": "2026-09-30T14:45:20.363779+00:00"
 }
