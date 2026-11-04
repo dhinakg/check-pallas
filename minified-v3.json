@@ -669,37 +669,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Tahoe 26.6 (25G72)",
-            "alternate": false,
-            "date": "2026-11-04T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Sequoia 15.7.8 (24G824)",
-            "alternate": false,
-            "date": "2026-11-04T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
-        },
-        {
-            "name": "macOS Sonoma 14.8.8 (23J620)",
-            "alternate": false,
-            "date": "2026-11-04T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2026-11-04T12:55:47.536789+00:00"
+    "_date": "2026-11-04T20:17:33.882801+00:00"
 }
