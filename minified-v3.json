@@ -1,7 +1,7 @@
 {
     "September 2026 iPhones": [
         {
-            "name": "iOS 27.2 (24B119)",
+            "name": "iOS 27.2.1 (24B156)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -11,10 +11,20 @@
             "mdm_only": false
         },
         {
+            "name": "iOS 27.2 (24B119)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "iOS 27.0.1 (24A446)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -24,7 +34,7 @@
             "name": "iOS 27.0 (24A437)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -33,7 +43,7 @@
     ],
     "iOS (devices supporting iOS 27)": [
         {
-            "name": "iOS 27.2 (24B119)",
+            "name": "iOS 27.2.1 (24B156)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -43,7 +53,7 @@
             "mdm_only": false
         },
         {
-            "name": "iOS 26.7.2 (23H128)",
+            "name": "iOS 26.7.3 (23H131)",
             "alternate": true,
             "date": null,
             "delay": 0,
@@ -53,10 +63,30 @@
             "mdm_only": false
         },
         {
+            "name": "iOS 27.2 (24B119)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iOS 26.7.2 (23H128)",
+            "alternate": true,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
             "name": "iOS 27.0.1 (24A446)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -66,7 +96,7 @@
             "name": "iOS 26.7.1 (23H30)",
             "alternate": true,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -76,7 +106,7 @@
             "name": "iOS 27 (24A437)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -86,7 +116,7 @@
             "name": "iOS 26.7 (23H24)",
             "alternate": true,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -96,7 +126,7 @@
             "name": "iOS 26.6.2 (23G90)",
             "alternate": false,
             "date": "2026-12-13T00:00:00+00:00",
-            "delay": 62,
+            "delay": 63,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -116,7 +146,7 @@
             "name": "iOS 26.6.1 (23G83)",
             "alternate": false,
             "date": "2026-12-07T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -135,7 +165,7 @@
     ],
     "iOS Legacy v4 (devices supporting up to iOS 18)": [
         {
-            "name": "iOS 18.7.11 (22H384)",
+            "name": "iOS 18.7.12 (22H390)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -145,10 +175,20 @@
             "mdm_only": false
         },
         {
+            "name": "iOS 18.7.11 (22H384)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "iOS 18.7.10 (22H374)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -203,7 +243,7 @@
     ],
     "iPadOS (devices supporting iPadOS 27)": [
         {
-            "name": "iPadOS 27.2 (24B119)",
+            "name": "iPadOS 27.2.1 (24B156)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -213,7 +253,7 @@
             "mdm_only": false
         },
         {
-            "name": "iPadOS 26.7.2 (23H128)",
+            "name": "iPadOS 26.7.3 (23H131)",
             "alternate": true,
             "date": null,
             "delay": 0,
@@ -223,10 +263,30 @@
             "mdm_only": false
         },
         {
+            "name": "iPadOS 27.2 (24B119)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "iPadOS 26.7.2 (23H128)",
+            "alternate": true,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": false,
+            "mdm_only": false
+        },
+        {
             "name": "iPadOS 27.0.1 (24A446)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -236,7 +296,7 @@
             "name": "iPadOS 26.7.1 (23H30)",
             "alternate": true,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -246,7 +306,7 @@
             "name": "iPadOS 27 (24A437)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -256,7 +316,7 @@
             "name": "iPadOS 26.7 (23H24)",
             "alternate": true,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": false,
@@ -266,7 +326,7 @@
             "name": "iPadOS 26.6.2 (23G90)",
             "alternate": false,
             "date": "2026-12-13T00:00:00+00:00",
-            "delay": 62,
+            "delay": 63,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -286,7 +346,7 @@
             "name": "iPadOS 26.6.1 (23G83)",
             "alternate": false,
             "date": "2026-12-07T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -305,7 +365,7 @@
     ],
     "iPadOS Legacy v6 (devices supporting up to iPadOS 26)": [
         {
-            "name": "iPadOS 26.7.2 (23H128)",
+            "name": "iPadOS 26.7.3 (23H131)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -315,10 +375,20 @@
             "mdm_only": false
         },
         {
+            "name": "iPadOS 26.7.2 (23H128)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "iPadOS 26.7.1 (23H30)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -328,7 +398,7 @@
             "name": "iPadOS 26.7 (23H24)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -338,7 +408,7 @@
             "name": "iPadOS 26.6.2 (23G90)",
             "alternate": false,
             "date": "2026-12-13T00:00:00+00:00",
-            "delay": 62,
+            "delay": 63,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -358,7 +428,7 @@
             "name": "iPadOS 26.6.1 (23G83)",
             "alternate": false,
             "date": "2026-12-07T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -377,7 +447,7 @@
     ],
     "iPadOS Legacy v5 (devices supporting up to iPadOS 18)": [
         {
-            "name": "iPadOS 18.7.11 (22H384)",
+            "name": "iPadOS 18.7.12 (22H390)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -387,10 +457,20 @@
             "mdm_only": false
         },
         {
+            "name": "iPadOS 18.7.11 (22H384)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "iPadOS 18.7.10 (22H374)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -470,7 +550,7 @@
             "name": "tvOS 27.0 (24J361)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -511,7 +591,7 @@
     ],
     "macOS": [
         {
-            "name": "macOS 27.2 (26B123)",
+            "name": "macOS 27.2.1 (26B131)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -521,7 +601,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Tahoe 26.7.2 (25G332)",
+            "name": "macOS Tahoe 26.7.3 (25G342)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -531,7 +611,7 @@
             "mdm_only": false
         },
         {
-            "name": "macOS Sequoia 15.8.2 (24H232)",
+            "name": "macOS Sequoia 15.8.3 (24H241)",
             "alternate": false,
             "date": null,
             "delay": 0,
@@ -581,10 +661,40 @@
             "mdm_only": false
         },
         {
+            "name": "macOS 27.2 (26B123)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Tahoe 26.7.2 (25G332)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "macOS Sequoia 15.8.2 (24H232)",
+            "alternate": false,
+            "date": "2027-02-07T00:00:00+00:00",
+            "delay": 15,
+            "latest": false,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
             "name": "macOS 27.0.1 (26A5434)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -594,7 +704,7 @@
             "name": "macOS Tahoe 26.7.1 (25G241)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -604,7 +714,7 @@
             "name": "macOS Sequoia 15.8.1 (24H32)",
             "alternate": false,
             "date": "2027-01-24T00:00:00+00:00",
-            "delay": 42,
+            "delay": 43,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -614,7 +724,7 @@
             "name": "macOS 27 (26A5428)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -624,7 +734,7 @@
             "name": "macOS Tahoe 26.7 (25G229)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -634,7 +744,7 @@
             "name": "macOS Sequoia 15.8 (24H23)",
             "alternate": false,
             "date": "2026-12-27T00:00:00+00:00",
-            "delay": 56,
+            "delay": 57,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -644,7 +754,7 @@
             "name": "macOS Tahoe 26.6.2 (25G83)",
             "alternate": false,
             "date": "2026-12-13T00:00:00+00:00",
-            "delay": 84,
+            "delay": 85,
             "latest": false,
             "imminent": false,
             "mdm_available": true,
@@ -671,5 +781,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-11-09T17:49:31.249319+00:00"
+    "_date": "2026-11-10T01:13:06.814983+00:00"
 }
