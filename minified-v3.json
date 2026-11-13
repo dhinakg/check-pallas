@@ -537,11 +537,21 @@
     ],
     "tvOS (devices supporting tvOS 27)": [
         {
-            "name": "tvOS 27.2 (24K122)",
+            "name": "tvOS 27.2.1 (24K157)",
             "alternate": false,
             "date": null,
             "delay": 0,
             "latest": true,
+            "imminent": false,
+            "mdm_available": true,
+            "mdm_only": false
+        },
+        {
+            "name": "tvOS 27.2 (24K122)",
+            "alternate": false,
+            "date": "2027-02-11T00:00:00+00:00",
+            "delay": 18,
+            "latest": false,
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
@@ -781,5 +791,5 @@
             "mdm_only": false
         }
     ],
-    "_date": "2026-11-13T18:03:23.682483+00:00"
+    "_date": "2026-11-13T23:52:18.403248+00:00"
 }
