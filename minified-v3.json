@@ -151,16 +151,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 26.6 (23G71)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v4 (devices supporting up to iOS 18)": [
@@ -193,16 +183,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iOS 18.7.9 (22H355)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iOS Legacy v3 (devices supporting up to iOS 16)": [
@@ -351,16 +331,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 26.6 (23G71)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v6 (devices supporting up to iPadOS 26)": [
@@ -433,16 +403,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 26.6 (23G71)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v5 (devices supporting up to iPadOS 18)": [
@@ -475,16 +435,6 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "iPadOS 18.7.9 (22H355)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
     "iPadOS Legacy v4 (devices supporting up to iPadOS 17)": [
@@ -779,17 +729,7 @@
             "imminent": false,
             "mdm_available": true,
             "mdm_only": false
-        },
-        {
-            "name": "macOS Tahoe 26.6.1 (25G76)",
-            "alternate": false,
-            "date": "2026-11-15T00:00:00+00:00",
-            "delay": -1,
-            "latest": false,
-            "imminent": true,
-            "mdm_available": true,
-            "mdm_only": true
         }
     ],
-    "_date": "2026-11-15T09:54:13.004940+00:00"
+    "_date": "2026-11-15T21:31:13.637814+00:00"
 }
